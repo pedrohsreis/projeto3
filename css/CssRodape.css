@@ -1,0 +1,65 @@
+*{
+    font-family: Arial;   
+}
+    
+#rodape{
+    background-color: #333333;
+    padding-bottom: 1%;
+    
+    
+}
+.texto{
+    font-weight: bold;
+    color:white;
+    
+      
+}
+
+#cp{
+    line-height:150px;
+}
+ul {
+	overflow: auto;
+}
+
+ul li {
+	list-style-type: none;
+	float: right;
+}
+
+ul li a i {
+	
+	color: white;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 32px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+        
+    
+}
+
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/10/2017, 16:05:40
+    Author     : Mirian Queiroz
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/10/2017, 20:58:08
+    Author     : Mirian Queiroz
+*/
+
