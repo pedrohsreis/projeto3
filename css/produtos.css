@@ -1,0 +1,154 @@
+#paineis-1{
+    margin-top: 20px;
+}
+
+.search-text{
+	margin-top:0;
+	background-color:lightgrey;
+	padding-top:60px;
+	padding-bottom:60px;
+    border-radius: 10px;
+}
+	
+.search-text .input-search{
+	height:45px;
+	width:400px;
+	padding-left:20px;
+    color:#333;
+} 
+
+.search-text .btn-search{
+	background-color:black;
+	border:1px solid #FFF;
+	font-family:Roboto;
+	color:#FFF;
+	padding:11px 20px 11px 20px;
+}
+.contato{
+        text-align: center;
+    }
+
+.search-text  .btn-search:hover{
+	background-color:#FFF;
+	color:#7dabdb;
+}
+@media(min-width: 768px){
+    .projeto-responsivo{
+        width:33.33333%;
+        float: left;
+    }
+    @keyframes letterspacing {
+    0% {
+        letter-spacing: -1rem;
+        filter: blur(.3rem);
+    }
+
+    50% {
+        filter: blur(.5rem);
+    }
+
+    100% {
+        letter-spacing: .3rem;
+        filter: blur(0rem);
+        color: black;
+    }
+}
+    
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+* {
+    box-sizing: border-box;
+}
+
+.animacao html, .animacao body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.animacao {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 6em;
+    filter: contrast(20);
+    overflow: hidden;
+}
+
+.animacao h1{
+    font-family: Righteous;
+    color: black;
+    font-size: 4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    animation: letterspacing 5s infinite alternate ease-in-out;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    letter-spacing: -2.2rem;
+}
+
+@keyframes letterspacing {
+    0% {
+        letter-spacing: -0.1rem;
+        filter: blur(.3rem);
+    }
+
+    50% {
+        filter: blur(.5rem);
+    }
+
+    100% {
+        letter-spacing: 0rem;
+        filter: blur(0rem);
+        color: black;
+    }
+}
+
+#rodape{
+    background-color: #333333;
+    padding-bottom: 1%;
+    
+    
+}
+.texto{
+    font-weight: bold;
+    color:white;
+    
+      
+}
+
+#cp{
+    line-height:150px;
+}
+ul {
+	overflow: auto;
+}
+
+ul li {
+	list-style-type: none;
+	float: right;
+}
+
+ul li a i {
+	
+	color: white;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 32px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+        
+    
+}
+
+
+
+
