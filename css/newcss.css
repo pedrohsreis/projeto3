@@ -1,0 +1,23 @@
+*{
+    font-family: Arial;   
+}
+    
+.principal{
+    width: 10px;
+    margin: auto;
+} 
+
+#titulopag{
+    text-align: center;    
+}
+
+#mapa{
+    text-align: center;
+}
+.texto{
+    font-weight: bold;
+    color:white;
+    
+      
+}
+
