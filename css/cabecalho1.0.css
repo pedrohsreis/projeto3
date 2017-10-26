@@ -9,6 +9,15 @@
 header{
 	background-color: #FFF;
 }
+<<<<<<< HEAD
+=======
+#divBusca{
+  background-color:#333333;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+}
+>>>>>>> a6bf706ad43e1567c4605d2a75bd6cc0b1068b53
 header label{
 	color: #333333;
 	font-size: 25px;
@@ -54,7 +63,14 @@ header label:hover{
 	#btn-menu:checked ~ .menu ul{
 		margin-left: 0;
 	}
+<<<<<<< HEAD
 /*Fim Cabeçalho*/
 
 
 
+=======
+}
+
+
+/*Fim Cabeçalho*/
+>>>>>>> a6bf706ad43e1567c4605d2a75bd6cc0b1068b53
