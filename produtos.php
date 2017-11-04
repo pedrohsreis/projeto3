@@ -25,13 +25,13 @@
  <script src="js/jquery.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
 
-   
-   <header class="cabecalho">
+   <?php include 'cabecalho1.0.html'; ?> 
+   <!--<header class="cabecalho">
 		<img class="img-responsive" id="logo" src="img/logo3.png" alt="">
 		<img src="img/cabecalho4.png" alt="">
 		
 		<!--teste menu-->
-		<input type="checkbox" id="btn-menu">
+		<!--<input type="checkbox" id="btn-menu">
 		<label for="btn-menu"><img src="img/menu.png" alt=""></label>
 		<nav class="menu">
 			<ul class="nav nav-pills nav-justified">
@@ -43,7 +43,7 @@
 				<li><a href="#">Login</a></li>
 			</ul>
 		</nav>
-	</header>
+	</header>-->
    <div class="container">
    <div class="animacao">
   <h1>O seu sonho está aqui!</h1>
@@ -271,7 +271,7 @@
         </div>
     </div>
     </div>
-    <footer id="rodape" class="mt-5">
+   <!-- <footer id="rodape" class="mt-5">
     <div class="container-fluid" id="container-rodape">
         <div class="container" >
             <div class="row p-2  text-center">
@@ -285,7 +285,7 @@
 
                     <br><!--<iframe  class="d-block mr-auto ml-auto" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsouzagomesimoveis%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
                             width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe><br>-->
-                    <ul><li><a href="http://facebook.com/"><i class="fa fa-facebook "></i></a></li>
+                  <!--  <ul><li><a href="http://facebook.com/"><i class="fa fa-facebook "></i></a></li>
                         <li><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="http://plus.google.com/"><i class="fa fa-google-plus"></i> </a></li>
                         <li><a href="http://instagram.com/"><i class="fa fa-instagram"></i> </a></li>
@@ -295,7 +295,8 @@
         </div>
 
     </div>
-</footer>
+</footer>-->
+<?php include 'Rodape.html'; ?>
 </body>
 
 </html>
