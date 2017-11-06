@@ -19,8 +19,9 @@
     <main>
 
 <div class="container">
+  
 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="assets/img/icone-missao3.png" alt="Card image cap">
+  <img class="card-img-top" src="img/icone-missao3.png" alt="Card image cap">
   <div class="card-block">
     <h3 class="card-title">Missão</h3>
     <p class="card-text"><strong>Expor e ajudar a encontrar imóveis na cidade de juiz de fora prezando a satisfacão e o contentamento do cliente sempre!</strong></p>
@@ -28,7 +29,7 @@
 </div>
 
 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="assets/img/icone-visao3.png" alt="Card image cap">
+  <img class="card-img-top" src="img/icone-visao3.png" alt="Card image cap">
   <div class="card-block">
     <h3 class="card-title">Visão</h3>
     <p class="card-text"><strong>Ser uma empresa do ramo de imóveis reconhecida e respeitada no mercado almejando causar grande impacto em tal mercado e se tornar uma referência no setor na cidade de Juiz de Fora.</strong></p>
@@ -36,7 +37,7 @@
 </div>
 
 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="assets/img/icone-valores3.png" alt="Card image cap">
+  <img class="card-img-top" src="img/icone-valores3.png" alt="Card image cap">
   <div class="card-block">
     <h3 class="card-title">Valores</h3>
     <p class="card-text"><strong>Comprometimento,maestria e respeito.</strong></p>
