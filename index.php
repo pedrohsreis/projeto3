@@ -2,31 +2,18 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>teste-Felicidade Imóveis</title>
-	<meta name="description" content="Descrição 156 carcteres">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Felicidade Imóveis</title>
+	
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
 	<link rel="stylesheet" href="css/home.css">
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
 	<!--cabeçalho-->
-	<header class="cabecalho">
-		<img class="img-responsive" id="logo" src="img/logo3.png" alt="">
-		<img src="img/cabecalho4.png" alt="">
-		<nav class="menu">
-			<ul class="nav nav-pills nav-justified">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="../Christian/index.html">Produtos</a></li>
-				<li><a href="../Gabriel/quemsomos/index.gabriel.html">Quem somos</a></li>
-				<li><a href="../Mirian/mirian.php">Localização</a></li>
-				<li><a href="#">Contato</a></li>
-				<li><a href="#">Login</a></li>
-			</ul>
-		</nav>
+	<header>
+			
 	</header>
 
 	<!--slide-->
@@ -81,32 +68,7 @@
 	<div class="space-ten"></div>
 	<div class="space-ten"></div>
 	<section><!---pesquisa-->
-		<div class="w3-row-padding">
-        <div class="w3-col m4">
-            <input class="w3-input" style="width:100%" type="text" name="Nome"  size="40" placeholder="Digite um bairro ou cidade. ">
-        </div>
-        <div class="w3-col m1 ">
-            <form method="post" >
-                <select  class="w3-select" name="tipoImovel">
-                    <option value="Casa">Casa</option>
-                    <option value="Apto">Apartamento</option>
-                    <option value="SalaComercial">Salas Comerciais</option>
-                    <option value="Galpao">Galpão</option>
-                    <option value="Chac">Chacara</option>
-                    <option value="L/t">Lote/Terrono</option>
-                </select>
-            </div>
-            <div class="w3-col m1 " >
-                <form method="post" >
-                    <select  class="w3-select" name="compraroualugar">
-                        <option value="Comprar">Comprar</option>
-                        <option value="alugar">Alugar</option>
-                    </select>
-                </div>
-                <div class="w3-col m2" >
-                    <input style="width: 50%" class="w3-btn w3-signal-black w3-large w3-round-large" type="submit" value="Buscar" >
-                </div>
-            </div>
+		<?php include("pesquisa.htm")?>
 	</section>	
 	<div class="space-ten"></div>
 	<div class="space-ten"></div>
@@ -213,33 +175,8 @@
 			</div>
 		</div>
 	</section>
-	<div class="space-ten"></div>
-	<div class="space-ten"></div>		
-		<footer id="rodape" class="mt-5">
-    <div class="container-fluid" id="container-rodape">
-        <div class="container" >
-            <div class="row p-2  text-center">
-                <div class="col-lg-8 col-md-12 mt-auto mb-auto">
-                    <p class="texto"><br><br>© Copyright 2017 - Felicidade Imóveis
- 
-                    </p>
-                </div>
-
-                <div class="col-md-12 col-lg-4 text-center" >
-
-                    <br><!--<iframe  class="d-block mr-auto ml-auto" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsouzagomesimoveis%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
-                            width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe><br>-->
-                    <ul lass="loirinhausaclasse"><li><a href="http://facebook.com/"><i class="fa fa-facebook "></i></a></li>
-                        <li><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="http://plus.google.com/"><i class="fa fa-google-plus"></i> </a></li>
-                        <li><a href="http://instagram.com/"><i class="fa fa-instagram"></i> </a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</footer>
+		<?php include("rodape.html")?>
+	</footer>
 
 </body>
 </html>

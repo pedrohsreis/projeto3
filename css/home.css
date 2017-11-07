@@ -1,34 +1,4 @@
 
-/*Inicio Cabeçalho*/
-#logo{
-	position: absolute;
-}
-#btn-menu{
-	display: none;
-}
-p{
-	text-align: justify;
-}
-header{
-	background-color: #FFF;
-}
-.cabecalho{
-	display: block;
-	overflow: hidden;
-	overflow-x: hidden;
-	overflow-y: hidden;
-}
-.menu li a{
-	padding: 20px 0px;
-	color: #333333;
-	display: block;
-	text-transform: uppercase;
-}
-.menu li a:hover{
-	padding: 14px 0px;
-	background-color: #FFF;
-	border-bottom: 3px solid #FF9933;
-}
 /*Fim Cabeçalho*/
 .carousel-inner .item img{
 	max-width: none;
@@ -90,3 +60,18 @@ a > img {
         
     
 }
+/*cab
+<header class="cabecalho">
+		<img class="img-responsive" id="logo" src="img/logo3.png" alt="">
+		<img src="img/cabecalho4.png" alt="">
+		<nav class="menu">
+			<ul class="nav nav-pills nav-justified">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="../Christian/index.html">Produtos</a></li>
+				<li><a href="../Gabriel/quemsomos/index.gabriel.html">Quem somos</a></li>
+				<li><a href="../Mirian/mirian.php">Localização</a></li>
+				<li><a href="#">Contato</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</nav>
+	</header>
