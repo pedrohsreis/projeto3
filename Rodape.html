@@ -2,7 +2,7 @@
     <head>
     <meta charset="UTF-8">
     <meta name ="Descriçao" content="Rodape">
-    <link rel="stylesheet" href="CssRodape.css">
+    <link rel="stylesheet" href="css/CssRodape.css">
     <link rel="stylesheet"  type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     

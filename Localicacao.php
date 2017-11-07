@@ -5,10 +5,10 @@
     <title>Felicidade Imoveis</title>
     <meta charset="UTF-8">
     <meta name ="Descriçao" content="Localizacao">
-    <link rel="stylesheet" href="newcss.css">
+    <link rel="stylesheet" href="css/newcss.css">
     <link rel="stylesheet"  type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <!--<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">-->
+    
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
 
 
