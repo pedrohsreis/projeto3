@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -14,6 +13,7 @@
 
 </head>
 <body>
+	<?php include("cabecalho1.0.html")?>
 	<!--cabeçalho-->
 	<header class="cabecalho">
 		<img class="img-responsive" id="logo" src="img/logo3.png" alt="">
