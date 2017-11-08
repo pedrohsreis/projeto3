@@ -1,0 +1,61 @@
+/*Inicio Cabeçalho*/
+#logo{
+	position: absolute;
+}
+#btn-menu{
+	display: none;
+}
+
+header{
+	background-color: #FFF;
+}
+header label{
+	color: #333333;
+	font-size: 25px;
+	display: block;
+	padding: 5px 10px;
+	width: 45px;
+	display: none;
+}
+
+header label:hover{
+	background-color: #FF9933;
+}
+.cabecalho{
+	display: block;
+	overflow: hidden;
+	overflow-x: hidden;
+    overflow-y: hidden;
+}
+.menu li a{
+	padding: 20px 0px;
+	color: #333333;
+	display: block;
+	text-transform: uppercase;
+}
+.menu li a:hover{
+	background-color: #FFF;
+	border-bottom: 3px solid #FF9933;
+}
+@media(max-width: 768px){
+	header label{
+		display: block;
+	}
+
+	.menu ul{
+		position: absolute;
+		background-color: #FFF;
+		width: 70%;
+		flex-direction: column;
+		margin-left: -70%;
+		border: 1px solid #333333;
+	}
+	
+	#btn-menu:checked ~ .menu ul{
+		margin-left: 0;
+	}
+}
+/*Fim Cabeçalho*/
+
+
+
