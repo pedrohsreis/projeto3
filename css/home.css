@@ -1,5 +1,3 @@
-
-/*Fim Cabeçalho*/
 .carousel-inner .item img{
 	max-width: none;
 }
@@ -38,40 +36,3 @@ a > img {
 #cp{
     line-height:10px;
 }
-.loirinhausaclasse {
-	overflow: auto;
-}
-
-.loirinhausaclasse li {
-	list-style-type: none;
-	float: left;
-}
-
-.loirinhausaclasse li a i {
-	
-	color: white;
-	width: 40px;
-	height: 40px;
-	border-radius: 20px;
-	font-size: 32px;
-	text-align: center;
-	margin-right: 10px;
-	padding-top: 15%;
-        
-    
-}
-/*cab
-<header class="cabecalho">
-		<img class="img-responsive" id="logo" src="img/logo3.png" alt="">
-		<img src="img/cabecalho4.png" alt="">
-		<nav class="menu">
-			<ul class="nav nav-pills nav-justified">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="../Christian/index.html">Produtos</a></li>
-				<li><a href="../Gabriel/quemsomos/index.gabriel.html">Quem somos</a></li>
-				<li><a href="../Mirian/mirian.php">Localização</a></li>
-				<li><a href="#">Contato</a></li>
-				<li><a href="#">Login</a></li>
-			</ul>
-		</nav>
-	</header>

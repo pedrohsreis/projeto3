@@ -1,7 +1,3 @@
-.navbar-brand img{
-	max-width:20%;
-	width: auto;
-}
-#logocabecalho{
-	position: absolute;
+body header .navbar{
+	margin-bottom: 0px;
 }

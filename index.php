@@ -8,12 +8,13 @@
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/home.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/cabacalho1.0.css">
 
 </head>
 <body>
 	<!--cabeçalho-->
 	<header>
-			
+		<?php include 'cabecalho.php'; ?>
 	</header>
 
 	<!--slide-->
@@ -29,20 +30,20 @@
 
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img class="img" src="img/casa1.jpg" alt="casa1">
+					<img class="img" src="img/imgslide.jpg" alt="casa1">
 					<div class="carousel-caption">
 						<h1>Residência dos Sonhos</h1>
 						<h3>Acordar na paz do interior</h3>
 					</div>
 				</div>
 				<div class="item">
-					<img src="img/casa2.jpg" alt="casa2">
+					<img src="img/imgslide2.jpg" alt="casa2">
 					<div class="carousel-caption">
 						<h1>segunda casa</h1>
 					</div>
 				</div>
 				<div class="item">
-					<img src="img/casa3.jpg" alt="casa3">
+					<img src="img/imgslide3.jpg" alt="casa3">
 					<div class="carousel-caption">
 						<h1>terceira casa</h1>
 					</div>
@@ -68,7 +69,7 @@
 	<div class="space-ten"></div>
 	<div class="space-ten"></div>
 	<section><!---pesquisa-->
-		<?php include("pesquisa.htm")?>
+		<?php include 'pesquisa.htm'; ?>
 	</section>	
 	<div class="space-ten"></div>
 	<div class="space-ten"></div>
@@ -175,8 +176,8 @@
 			</div>
 		</div>
 	</section>
-		<?php include("rodape.html")?>
+	<?php include("rodape.html")?>
 	</footer>
 
-</body>
-</html>
+	</body>
+	</html>
