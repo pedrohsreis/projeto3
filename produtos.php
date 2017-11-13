@@ -27,7 +27,7 @@
         <script src="js/jquery.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
 
-        <?php include 'cabecalho1.0.html'; ?> 
+        <?php include 'cabecalho1.0.php'; ?> 
 
         <div class="container">
             <div class="search-text"> 
@@ -172,7 +172,7 @@
             </div>
         </div>
 
-        <?php include 'Rodape.html'; ?>
+        <?php include 'Rodape.php'; ?>
     </body>
 
 </html>
