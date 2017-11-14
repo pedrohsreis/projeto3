@@ -5,7 +5,6 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/cabecalho1.0.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
 </head>
 <body>
   <!--cabeçalho-->
@@ -28,16 +27,28 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="collapse-menu">
+          <div class="container">
           <ul class="nav navbar-nav">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="produtos.php">Produtos</a></li>
-            <li><a href="quem-somos.php">Quem somos</a></li>
-            <li><a href="localicacao.php">Localização</a></li>
-            <li><a href="contato.php">Contatos</a></li>
+            <ul class="nav navbar-nav">
+              <li><a href="index.php">Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+              <li><a href="produtos.php">Produtos</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+              <li><a href="quem-somos.php">Quem somos</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+              <li><a href="localicacao.php">Localização</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+              <li><a href="contato.php">Contatos</a></li>
+            </ul>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Login</a></li>
-          </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="login.php">Login</a></li>
+            </ul>
+            </div>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
       <script src="js/jquery.js"></script>

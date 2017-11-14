@@ -2,9 +2,11 @@
 	max-width: none;
 }
 .item{
-	height: 700px;
-	overflow: hidden;
+	height: auto;
+    overflow: hidden;
 }
+
+
 /*QuickView*/
 .product_view .modal-dialog{max-width: 800px; width: 100%;}
 .pre-cost{text-decoration: line-through; color: #a5a5a5;}
@@ -13,26 +15,26 @@
 	padding: 6px;
 	border: none;
 }
-.btn-primary{
-	background-color: #FFF;
+
+.thumbnail .btn-primary{
+    background-color: #FFF;
 }
-.btn-primary:hover{
-	background-color: #FF9933
-}
-a > img {
-    margin-bottom: 0px;
-}
-#rodape{
-    background-color: #333333;
-    overflow: hidden;
-    text-align: center;
-    
+.thumbnail .btn-primary:hover{
+    background-color: #FF9933
 }
 .texto{
     font-weight: bold;
     color: #FFF;
     text-indent: center;    
 }
-#cp{
-    line-height:10px;
+p{
+    text-align: justify;
+}
+.thumbnail .btn{
+    display: inline-block;
+    padding: 5px 5px 10px 5px;
+    border: none;
+}
+.button{
+    appearance: none;
 }
