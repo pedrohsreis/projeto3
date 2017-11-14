@@ -11,33 +11,6 @@
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
 
 </head>
-<<<<<<< HEAD
-    <?php
-     include 'cabecalho.php'; 
-     //include 'pesquisa.php'; esse include faz o banco de dados parar de funcionar
-     ?>
-<main>
-<br><br><div class="container">
-    <div class="row">
-        <div class="col-md-7">
-            <div class="well well-sm">
-               <h1>Contatos</h1><br><br>
-<<<<<<< HEAD
-                <form  method="post" action="sucesso.php">
-=======
-                <form method="POST" action="sucesso.php">
->>>>>>> 5c29e4567f8d9e253740f1a3353942ac03cbae43
-                    <div class="row">
-                        <div class="col-md-6">
-
-                            <label for="nome">Nome</label>
-                            <input type="text" name="nome" class="form-control" id="nome" placeholder="Insira seu nome" required="required" /><br>
-<<<<<<< HEAD
-                                
-=======
-                                <class="form-control">
->>>>>>> 5c29e4567f8d9e253740f1a3353942ac03cbae43
-=======
 <?php
 include 'cabecalho.php'; 
      //include 'pesquisa.php'; esse include faz o banco de dados parar de funcionar
@@ -63,7 +36,6 @@ include 'cabecalho.php';
                                 =======
                                 <class="form-control">
                                 >>>>>>> 5c29e4567f8d9e253740f1a3353942ac03cbae43
->>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1
 
                                 <label for="email">Email</label>
                                 <input type="email" name="email" class="form-control" id="email" placeholder="Insira seu email" required="required" /><br>
@@ -77,15 +49,6 @@ include 'cabecalho.php';
                                 <label for="mensagem">Mensagem</label>
                                 <textarea name="mensagem" id="message" class="form-control" rows="7" cols="25" required="required" placeholder="Insira a sua mensagem aqui."></textarea>
 
-<<<<<<< HEAD
-                            <br><button title="Enviar." type="submit" class="btn btn-primary pull-right" id="enviar">Enviar</button>
-<<<<<<< HEAD
-                                
-=======
-                                <class="btn btn-primary pull-right">
->>>>>>> 5c29e4567f8d9e253740f1a3353942ac03cbae43
-                            
-=======
                                 <br><button title="Enviar." type="submit" class="btn btn-primary pull-right" id="enviar">Enviar</button>
                                 <<<<<<< HEAD
                                 
@@ -94,22 +57,10 @@ include 'cabecalho.php';
                                 >>>>>>> 5c29e4567f8d9e253740f1a3353942ac03cbae43
                                 
                             </div>
->>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1
                         </div>
                     </form>
                 </div>
             </div>
-<<<<<<< HEAD
-        </div>
-        <div class="col-md-5">
-            <form>
-                <legend><h3 align=center><b>Outras formas de contatos</b></h3></legend>
-<<<<<<< HEAD
-                    
-=======
-                    <legend>
->>>>>>> 5c29e4567f8d9e253740f1a3353942ac03cbae43
-=======
             <div class="col-md-5">
                 <form>
                     <legend><h3 align=center><b>Outras formas de contatos</b></h3></legend>
@@ -118,7 +69,6 @@ include 'cabecalho.php';
                     =======
                     <legend>
                         >>>>>>> 5c29e4567f8d9e253740f1a3353942ac03cbae43
->>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1
 
                         
                         <label><a href="#"><img class="img-responsive" id="twitter" title="Página da empresa no Twitter." src="img/Twitter.png" alt="" width="70" height="70"></a></label>
@@ -131,4 +81,5 @@ include 'cabecalho.php';
             </div>
         </div><br>
     </main>
-<?php include 'Rodape.php'; ?>
+
+    <?php include 'Rodape.php'; ?>

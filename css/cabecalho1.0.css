@@ -6,12 +6,6 @@ header .img-responsive{
 body header .navbar{
 	margin-bottom: 0px;
 }
-<<<<<<< HEAD
-p{
-	text-align: justify;
-}
-=======
->>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1
 header{
 	background-color: #FFF;
 }
@@ -26,75 +20,7 @@ header{
     color: #FFF;
     text-indent: center;    
 }
-<<<<<<< HEAD
-.menu li a:hover{
-	padding: 14px 0px;
-	background-color: #FFF;
-	border-bottom: 3px solid #FF9933;
-}
-/*Fim Cabeçalho*/
-.carousel-inner .item img{
-	max-width: none;
-}
-.item{
-	height: 500px;
-	overflow: hidden;
-}
-/*QuickView*/
-.product_view .modal-dialog{max-width: 800px; width: 100%;}
-.pre-cost{text-decoration: line-through; color: #a5a5a5;}
-.space-ten{padding: 10px 0;}
-.btn{
-	padding: 6px;
-	border: none;
-}
-.btn-primary{
-	background-color: #FFF;
-}
-.btn-primary:hover{
-	background-color: #FF9933
-}
-a > img {
-    margin-bottom: 0px;
-}
-#rodape{
-    background-color: #333333;
-    overflow: hidden;
-    text-align: center;
-    
-}
-.texto{
-    font-weight: bold;
-    color: #FFF;
-    text-indent: center;    
-}
-#cp{
-    line-height:10px;
-}
-.loirinhausaclasse {
-	overflow: auto;
-}
-
-.loirinhausaclasse li {
-	list-style-type: none;
-	float: left;
-}
-
-.loirinhausaclasse li a i {
-	
-	color: white;
-	width: 40px;
-	height: 40px;
-	border-radius: 20px;
-	font-size: 32px;
-	text-align: center;
-	margin-right: 10px;
-	padding-top: 15%;
-        
-    
-=======
 .cabecalhoprincipal{
 	overflow-x: hidden;
 	overflow-y: hidden;
->>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1
 }

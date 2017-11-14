@@ -29,7 +29,6 @@
 
         <?php include 'cabecalho.php'; ?> 
 
-
         <div class="container">
             <div class="search-text"> 
                 <div class="row text-center">
