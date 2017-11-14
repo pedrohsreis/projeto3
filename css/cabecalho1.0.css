@@ -1,13 +1,17 @@
-/*Inicio Cabeçalho*/
-#logo{
+header .img-responsive{
 	position: absolute;
+	padding-top: 8px;
+	padding-left: 10px;
 }
-#btn-menu{
-	display: none;
+body header .navbar{
+	margin-bottom: 0px;
 }
+<<<<<<< HEAD
 p{
 	text-align: justify;
 }
+=======
+>>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1
 header{
 	background-color: #FFF;
 }
@@ -17,12 +21,12 @@ header{
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
-.menu li a{
-	padding: 20px 0px;
-	color: #333333;
-	display: block;
-	text-transform: uppercase;
+.texto{
+    font-weight: bold;
+    color: #FFF;
+    text-indent: center;    
 }
+<<<<<<< HEAD
 .menu li a:hover{
 	padding: 14px 0px;
 	background-color: #FFF;
@@ -88,4 +92,9 @@ a > img {
 	padding-top: 15%;
         
     
+=======
+.cabecalhoprincipal{
+	overflow-x: hidden;
+	overflow-y: hidden;
+>>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1
 }

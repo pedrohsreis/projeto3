@@ -15,8 +15,8 @@
 
   </head>
 
-      <?php include 'cabecalho1.0.html'; ?> 
-      <?php include 'pesquisa.htm'; ?> 
+      <?php include 'cabecalho.php'; ?> 
+      <?php include 'pesquisa.php'; ?> 
     <div class="container">
         
       <div class="row mt-5 mb-3">
@@ -33,5 +33,5 @@
       </div>
     </div>   
       <br><br><br>
-    <?php include 'Rodape.html'; ?>
+    <?php include 'Rodape.php'; ?>
   
