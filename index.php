@@ -58,8 +58,7 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
-		<script src="js/jquery.js"></script>
-		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
 	</section>
 	<div class="space-ten"></div>
 	<div class="space-ten"></div>
