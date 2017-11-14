@@ -2,24 +2,25 @@ h3,p{
     font-family: 'Ubuntu', sans-serif;
 }
 
-@media(max-width: 500px){
+@media(min-width: 700px){
     .card{
         text-align: center;
         margin-right: 50px;
     }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .card{
     text-align: center;
     margin-top: 15%;
     transition: 1s;
     transition-delay: 0.2s;
+    margin-left: 10%;
 }
 
 .card:hover{

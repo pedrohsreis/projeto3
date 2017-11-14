@@ -49,7 +49,8 @@
 
 </main>
 <br><br>
+<footer>
 <?php include 'Rodape.php' ?>;
-
+</footer>
 </body>
 </html>
