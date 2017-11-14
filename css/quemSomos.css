@@ -22,6 +22,10 @@ h3,p{
     transition-delay: 0.2s;
     margin-left: 10%;
 }
+main{
+    margin-left: 200px;
+}
+
 
 .card:hover{
 transform: scale(1.3);

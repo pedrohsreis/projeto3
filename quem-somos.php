@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="css/reset.css">
-     <link rel="stylesheet" type="text/css" href="css/quemSomos.css">
-     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-     <link rel="icon" href="img/felicidade.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/quemSomos.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="icon" href="img/felicidade.png">
 
-     <title>Felicidade Imóveis--Quem Somos</title>
+  <title>Felicidade Imóveis--Quem Somos</title>
 
 </head>
-
+<header>
+  <?php include('cabecalho.php'); ?>
+</header>
 
 <body>
 
     <main>
+      <?php include("pesquisa.php"); ?>
 
 <div class="container">
 	
@@ -52,5 +55,6 @@
 <footer>
 <?php include 'Rodape.php' ?>;
 </footer>
+
 </body>
 </html>

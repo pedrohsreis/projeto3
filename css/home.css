@@ -1,40 +1,8 @@
-
-/*Inicio Cabeçalho*/
-#logo{
-	position: absolute;
-}
-#btn-menu{
-	display: none;
-}
-p{
-	text-align: justify;
-}
-header{
-	background-color: #FFF;
-}
-.cabecalho{
-	display: block;
-	overflow: hidden;
-	overflow-x: hidden;
-	overflow-y: hidden;
-}
-.menu li a{
-	padding: 20px 0px;
-	color: #333333;
-	display: block;
-	text-transform: uppercase;
-}
-.menu li a:hover{
-	padding: 14px 0px;
-	background-color: #FFF;
-	border-bottom: 3px solid #FF9933;
-}
-/*Fim Cabeçalho*/
 .carousel-inner .item img{
 	max-width: none;
 }
 .item{
-	height: 500px;
+	height: 700px;
 	overflow: hidden;
 }
 /*QuickView*/
@@ -67,26 +35,4 @@ a > img {
 }
 #cp{
     line-height:10px;
-}
-.loirinhausaclasse {
-	overflow: auto;
-}
-
-.loirinhausaclasse li {
-	list-style-type: none;
-	float: left;
-}
-
-.loirinhausaclasse li a i {
-	
-	color: white;
-	width: 40px;
-	height: 40px;
-	border-radius: 20px;
-	font-size: 32px;
-	text-align: center;
-	margin-right: 10px;
-	padding-top: 15%;
-        
-    
 }
