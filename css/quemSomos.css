@@ -2,6 +2,13 @@ h3,p{
     font-family: 'Ubuntu', sans-serif;
 }
 
+@media(max-width: 500px){
+    .card{
+        text-align: center;
+        margin-right: 50px;
+    }
+}
+
 .container{
     display: flex;
     align-items: center;
@@ -13,14 +20,6 @@ h3,p{
     margin-top: 15%;
     transition: 1s;
     transition-delay: 0.2s;
-}
-
-
-@media(max-width: 500px){
-    .card{
-        text-align: center;
-        margin-right: 50px;
-    }
 }
 
 .card:hover{

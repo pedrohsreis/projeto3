@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>teste-Felicidade Imóveis</title>
+	<title>Felicidade Imóveis</title>
 	<meta name="description" content="Descrição 156 carcteres">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/reset.css">
@@ -15,20 +14,7 @@
 </head>
 <body>
 	<!--cabeçalho-->
-	<header class="cabecalho">
-		<img class="img-responsive" id="logo" src="img/logo3.png" alt="">
-		<img src="img/cabecalho4.png" alt="">
-		<nav class="menu">
-			<ul class="nav nav-pills nav-justified">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="../Christian/index.html">Produtos</a></li>
-				<li><a href="../Gabriel/quemsomos/index.gabriel.html">Quem somos</a></li>
-				<li><a href="../Mirian/mirian.php">Localização</a></li>
-				<li><a href="#">Contato</a></li>
-				<li><a href="#">Login</a></li>
-			</ul>
-		</nav>
-	</header>
+	<?php include 'cabecalho1.0.html';?>
 
 	<!--slide-->
 	<section>
@@ -126,7 +112,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view2"><i class="fa fa-search"></i><img src="img/quickcasa2.jpg" alt="" class="img-responsive"></a>
+						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view2"><img src="img/quickcasa2.jpg" alt="" class="img-responsive"></a>
 						<div class="caption">
 							<h4>CASA 2</h4>
 							<p>Dois quartos, todos com ar-condicionado e ventilador de teto, podendo conter uma cama de casal e um beliche, e claro, temos armadores para rede em todos os quartos.</p>
@@ -135,7 +121,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view3"><i class="fa fa-search"></i><img src="img/quickcasa3.jpg" alt="" class="img-responsive"></a>
+						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view3"><img src="img/quickcasa3.jpg" alt="" class="img-responsive"></a>
 						<div class="caption">
 							<h4>CASA 3</h4>
 							<p>Dois quartos, todos com ar-condicionado e ventilador de teto, podendo conter uma cama de casal e um beliche, e claro, temos armadores para rede em todos os quartos.</p>
