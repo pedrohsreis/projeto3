@@ -1,3 +1,12 @@
+header .img-responsive{
+	position: absolute;
+	padding-top: 8px;
+	padding-left: 10px;
+}
 body header .navbar{
 	margin-bottom: 0px;
+}
+.cabecalhoprincipal{
+	overflow-x: hidden;
+	overflow-y: hidden;
 }

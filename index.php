@@ -16,7 +16,6 @@
 	<header>
 		<?php include 'cabecalho.php'; ?>
 	</header>
-
 	<!--slide-->
 	<section>
 		<div id="slide" class="carousel slide" data-ride="carousel">

@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/reset.css">
-
   <link rel="stylesheet" href="css/cabecalho1.0.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title></title>
@@ -11,8 +10,10 @@
 <body>
   <!--cabeçalho-->
   <header>
-
-    <div class="imgcabeca"></div>
+    <div class="cabecalhoprincipal">
+      <img id="cb" class="img-responsive" src="img/logocabecalho.png" alt="logotipo">
+      <img src="img/cabecalho.png" alt="imagem do cabecalho">
+    </div>
     <!-- Navigation -->
     <nav class="navbar navbar-default">
       <div class="container-fluid">
