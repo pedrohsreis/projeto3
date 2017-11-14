@@ -3,11 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Felicidade Imóveis</title>
-<<<<<<< HEAD:index.php
-	<meta name="description" content="Descrição 156 carcteres">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-=======
->>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1:index.php
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/home.css">
