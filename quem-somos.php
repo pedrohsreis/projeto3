@@ -88,7 +88,6 @@
   </main>
   <br><br>
   <?php include 'Rodape.php' ?>;
->>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1
 
 </body>
 </html>

@@ -13,15 +13,9 @@
 </head>
 <<<<<<< HEAD
     <?php
-     include 'cabecalho1.0.php'; 
+     include 'cabecalho.php'; 
      //include 'pesquisa.php'; esse include faz o banco de dados parar de funcionar
      ?>
-
-
-<<<<<<< HEAD
-    <?php include 'cabecalho1.0.html'; ?>
-=======
->>>>>>> 5c29e4567f8d9e253740f1a3353942ac03cbae43
 <main>
 <br><br><div class="container">
     <div class="row">
@@ -137,9 +131,4 @@ include 'cabecalho.php';
             </div>
         </div><br>
     </main>
-
-<<<<<<< HEAD
 <?php include 'Rodape.php'; ?>
-=======
-    <?php include 'Rodape.php'; ?>
->>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1

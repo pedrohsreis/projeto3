@@ -27,11 +27,8 @@
         <script src="js/jquery.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
 
-<<<<<<< HEAD
-        <?php include 'cabecalho1.0.php'; ?> 
-=======
         <?php include 'cabecalho.php'; ?> 
->>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1
+
 
         <div class="container">
             <div class="search-text"> 

@@ -17,14 +17,9 @@
 </head>
 <body>
 	<!--cabeçalho-->
-<<<<<<< HEAD:index.php
-	<?php include 'cabecalho1.0.html';?>
-
-=======
 	<header>
 		<?php include 'cabecalho.php'; ?>
 	</header>
->>>>>>> 75760f41c2b32ddff0cf16824b891f38bc9f5ee1:index.php
 	<!--slide-->
 	<section>
 		<div id="slide" class="carousel slide" data-ride="carousel">
