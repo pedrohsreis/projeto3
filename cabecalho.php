@@ -5,7 +5,6 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/cabecalho1.0.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
 </head>
 <body>
   <!--cabeçalho-->

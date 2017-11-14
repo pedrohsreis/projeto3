@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/home.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/cabacalho1.0.css">
+	
 
 </head>
 <body>
@@ -58,10 +58,7 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
-		<script
-		src="https://code.jquery.com/jquery-2.2.4.min.js"
-		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-		crossorigin="anonymous"></script>
+		<script src="js/jquery.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 	</section>
 	<div class="space-ten"></div>
@@ -111,7 +108,7 @@
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-						<a href="index.html" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+						<a href="index.php" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
 						<h3 class="modal-title">Dê o primeiro passo para realizar o seu sonho</h3>
 					</div>
 					<div class="modal-body">
@@ -133,7 +130,7 @@
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-						<a href="index.html" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+						<a href="index.php" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
 						<h3 class="modal-title">Dê o primeiro passo para realizar o seu sonho</h3>
 					</div>
 					<div class="modal-body">
@@ -155,7 +152,7 @@
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-						<a href="index.html" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+						<a href="index.php" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
 						<h3 class="modal-title">Dê o primeiro passo para realizar o seu sonho</h3>
 					</div>
 					<div class="modal-body">
@@ -175,7 +172,7 @@
 		</div>
 	</section>
 	<?php include 'rodape.php'; ?>
-	</footer>
+</footer>
 
-	</body>
-	</html>
+</body>
+</html>
