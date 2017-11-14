@@ -19,9 +19,10 @@
 <body>
 
     <main>
+      <br>
       <?php include("pesquisa.php"); ?>
 
-<div class="container">
+<div class="principal">
 	
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="img/icone-missao3.png" alt="Card image cap">
