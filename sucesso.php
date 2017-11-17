@@ -12,7 +12,11 @@
 	mysqli_close($conexao);
 	
 	?>
+<<<<<<< HEAD
 
 	MENSAGEM ENVIADA COM SUCESSO!
 
+=======
+	MENSAGEM ENVIADA COM SUCESSO!
+>>>>>>> 68fd261be7bba8227051a3b4f85cab748f389b08
 	</html>
