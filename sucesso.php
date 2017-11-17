@@ -12,5 +12,7 @@
 	mysqli_close($conexao);
 	
 	?>
-	PRODUTO ADICIONADO COM SUCESSO!
+
+	MENSAGEM ENVIADA COM SUCESSO!
+
 	</html>
