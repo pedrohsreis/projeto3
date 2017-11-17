@@ -156,7 +156,7 @@
 
 
         
-        <div class = "container contato">
+        <!--<div class = "container contato">
             <div class=" jumbotron">
                 <h2>CONTATO</h2>
                 <p>Entre em contato conosco.</p>
@@ -170,7 +170,7 @@
                     <p><a href="email@contato.com">email@contato.com</a></p>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <?php include 'Rodape.php'; ?>
     </body>
