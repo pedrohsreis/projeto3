@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Felicidade Imóveis</title>
+	<link rel="icon" href="img/icone.png">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/home.css">
@@ -11,6 +12,11 @@
 
 </head>
 <body>
+	<?php 
+	require 'config.php';
+	require 'connection.php';
+	require 'database.php';
+	?>
 	<!--cabeçalho-->
 	<header>
 		<?php include 'cabecalho.php'; ?>
@@ -69,32 +75,97 @@
 	<div class="space-ten"></div>
 	<!--QuickView-->
 	<section>
+		
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><img src="img/quickcasa1.jpg" alt="" class="img-responsive"></a>
+						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view">
+							<?php
+							$result_foto =  DBRead('imovel', 'order by idimovel desc limit 0,1', 'foto');
+							foreach ($result_foto as $foto){
+								echo "<img src='img/" . $foto['foto'] . "' alt='Foto de exibição' />";
+							}
+							?>
+						</a>
 						<div class="caption">
-							<h4>CASA 1</h4>
-							<p>Dois quartos, todos com ar-condicionado e ventilador de teto, podendo conter uma cama de casal e um beliche, e claro, temos armadores para rede em todos os quartos.</p>
+							<h4>
+								<?php
+								$result_nome =  DBRead('imovel', 'order by idimovel desc limit 0,1', 'nome');
+								foreach ($result_nome as $nome){
+									echo $nome['nome'];
+								}
+								?>
+							</h4>
+							<p>
+								<?php
+								$result_desc =  DBRead('imovel', 'order by idimovel desc limit 0,1', 'descricao');
+								foreach ($result_desc as $desc){
+									echo $desc['descricao'];
+								}
+								?>
+							</p>
 						</div>               
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view2"><img src="img/quickcasa2.jpg" alt="" class="img-responsive"></a>
+						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view2">
+							<?php
+							$result_foto =  DBRead('imovel', 'order by idimovel desc limit 1,1', 'foto');
+							foreach ($result_foto as $foto){
+								echo "<img src='img/" . $foto['foto'] . "' alt='Foto de exibição' />";
+							}
+							?>
+						</a>
 						<div class="caption">
-							<h4>CASA 2</h4>
-							<p>Dois quartos, todos com ar-condicionado e ventilador de teto, podendo conter uma cama de casal e um beliche, e claro, temos armadores para rede em todos os quartos.</p>
+							<h4>
+								<?php
+								$result_nome =  DBRead('imovel', 'order by idimovel desc limit 1,1', 'nome');
+								foreach ($result_nome as $nome){
+									echo $nome['nome'];
+								}
+								?>
+							</h4>
+							<p>
+								<?php
+								$result_desc =  DBRead('imovel', 'order by idimovel desc limit 1,1', 'descricao');
+								foreach ($result_desc as $desc){
+									echo $desc['descricao'];
+								}
+								?>
+							</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view3"><img src="img/quickcasa3.jpg" alt="" class="img-responsive"></a>
+						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view3">
+							<?php
+							$result_foto =  DBRead('imovel', 'order by idimovel desc limit 2,1', 'foto');
+							foreach ($result_foto as $foto){
+								echo "<img src='img/" . $foto['foto'] . "' alt='Foto de exibição' />";
+							}
+							?>
+						</a>
 						<div class="caption">
-							<h4>CASA 3</h4>
-							<p>Dois quartos, todos com ar-condicionado e ventilador de teto, podendo conter uma cama de casal e um beliche, e claro, temos armadores para rede em todos os quartos.</p>
+							<h4>
+								<?php
+								$result_nome =  DBRead('imovel', 'order by idimovel desc limit 2,1', 'nome');
+								foreach ($result_nome as $nome){
+									echo $nome['nome'];
+								}
+								?>
+							</h4>
+							<p>
+								<?php
+								$result_desc =  DBRead('imovel', 'order by idimovel desc limit 2,1', 'descricao');
+								foreach ($result_desc as $desc){
+									echo $desc['descricao'];
+								}
+								?>
+							</p>
 						</div>               
 					</div>
 				</div>
@@ -113,7 +184,7 @@
 					<div class="modal-body">
 						<div class="row">
 							<div class="col-md-6 product_img">
-								<img src="img/quickcasa1.jpg" class="img-responsive">
+								<img src="img/bdcasa9.jpg" class="img-responsive">
 							</div>
 							<div class="col-md-6 product_content">
 								<h4>CASA 1</h4>		                        
@@ -135,7 +206,7 @@
 					<div class="modal-body">
 						<div class="row">
 							<div class="col-md-6 product_img">
-								<img src="img/quickcasa2.jpg" class="img-responsive">
+								<img src="img/bdcasa8.jpg" class="img-responsive">
 							</div>
 							<div class="col-md-6 product_content">
 								<h4>CASA 2</h4>		                        
@@ -157,7 +228,7 @@
 					<div class="modal-body">
 						<div class="row">
 							<div class="col-md-6 product_img">
-								<img src="img/quickcasa3.jpg" class="img-responsive">
+								<img src="img/bdcasa7.jpg" class="img-responsive">
 							</div>
 							<div class="col-md-6 product_content">
 								<h4>CASA 3</h4>		                        
@@ -170,8 +241,9 @@
 			</div>
 		</div>
 	</section>
-	<?php include 'rodape.php'; ?>
-</footer>
+	<footer>
+		<?php include 'rodape.php'; ?>
+	</footer>
 
 </body>
 </html>
