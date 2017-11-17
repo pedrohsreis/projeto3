@@ -1,42 +1,12 @@
-
-/*Inicio Cabeçalho*/
-#logo{
-	position: absolute;
-}
-#btn-menu{
-	display: none;
-}
-p{
-	text-align: justify;
-}
-header{
-	background-color: #FFF;
-}
-.cabecalho{
-	display: block;
-	overflow: hidden;
-	overflow-x: hidden;
-	overflow-y: hidden;
-}
-.menu li a{
-	padding: 20px 0px;
-	color: #333333;
-	display: block;
-	text-transform: uppercase;
-}
-.menu li a:hover{
-	padding: 14px 0px;
-	background-color: #FFF;
-	border-bottom: 3px solid #FF9933;
-}
-/*Fim Cabeçalho*/
 .carousel-inner .item img{
 	max-width: none;
 }
 .item{
-	height: 500px;
-	overflow: hidden;
+	height: auto;
+    overflow: hidden;
 }
+
+
 /*QuickView*/
 .product_view .modal-dialog{max-width: 800px; width: 100%;}
 .pre-cost{text-decoration: line-through; color: #a5a5a5;}
@@ -45,48 +15,26 @@ header{
 	padding: 6px;
 	border: none;
 }
-.btn-primary{
-	background-color: #FFF;
+
+.thumbnail .btn-primary{
+    background-color: #FFF;
 }
-.btn-primary:hover{
-	background-color: #FF9933
-}
-a > img {
-    margin-bottom: 0px;
-}
-#rodape{
-    background-color: #333333;
-    overflow: hidden;
-    text-align: center;
-    
+.thumbnail .btn-primary:hover{
+    background-color: #FF9933
 }
 .texto{
     font-weight: bold;
     color: #FFF;
     text-indent: center;    
 }
-#cp{
-    line-height:10px;
+p{
+    text-align: justify;
 }
-.loirinhausaclasse {
-	overflow: auto;
+.thumbnail .btn{
+    display: inline-block;
+    padding: 5px 5px 10px 5px;
+    border: none;
 }
-
-.loirinhausaclasse li {
-	list-style-type: none;
-	float: left;
-}
-
-.loirinhausaclasse li a i {
-	
-	color: white;
-	width: 40px;
-	height: 40px;
-	border-radius: 20px;
-	font-size: 32px;
-	text-align: center;
-	margin-right: 10px;
-	padding-top: 15%;
-        
-    
+.button{
+    appearance: none;
 }
