@@ -12,7 +12,5 @@
 	mysqli_close($conexao);
 	
 	?>
-
 	MENSAGEM ENVIADA COM SUCESSO!
-
 	</html>
