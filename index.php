@@ -21,56 +21,57 @@
 	<header>
 		<?php include 'cabecalho.php'; ?>
 	</header>
-	<!--slide-->
-	<section>
-		<div id="slide" class="carousel slide" data-ride="carousel">
+</section>
+<div class="space-ten"></div>
+<section><!---pesquisa-->
+	<?php include 'pesquisa.php'; ?>
+</section>	
+<div class="space-ten"></div>
+<!--slide-->
+<section>
+	<div id="slide" class="carousel slide" data-ride="carousel">
 
-			<ol class="carousel-indicators">
-				<li data-target="#slide" data-slide-to="0" class="active"></li>
-				<li data-target="#slide" data-slide-to="1"></li>
-				<li data-target="#slide" data-slide-to="2"></li>
-			</ol>
+		<ol class="carousel-indicators">
+			<li data-target="#slide" data-slide-to="0" class="active"></li>
+			<li data-target="#slide" data-slide-to="1"></li>
+			<li data-target="#slide" data-slide-to="2"></li>
+		</ol>
 
 
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img class="img" src="img/imgslide.jpg" alt="casa1">
-					<div class="carousel-caption">
-						<h1>Residência dos Sonhos</h1>
-						<h3>Acordar na paz do interior</h3>
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/imgslide2.jpg" alt="casa2">
-					<div class="carousel-caption">
-						<h1>segunda casa</h1>
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/imgslide3.jpg" alt="casa3">
-					<div class="carousel-caption">
-						<h1>terceira casa</h1>
-					</div>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img class="img" src="img/imgslide.jpg" alt="casa1">
+				<div class="carousel-caption">
+					<h1>Residência dos Sonhos</h1>
+					<h3>Acordar na paz do interior</h3>
 				</div>
 			</div>
-
-
-			<a class="left carousel-control" href="#slide" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="right carousel-control" href="#slide" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
+			<div class="item">
+				<img src="img/imgslide2.jpg" alt="casa2">
+				<div class="carousel-caption">
+					<h1>segunda casa</h1>
+				</div>
+			</div>
+			<div class="item">
+				<img src="img/imgslide3.jpg" alt="casa3">
+				<div class="carousel-caption">
+					<h1>terceira casa</h1>
+				</div>
+			</div>
 		</div>
-		
-	</section>
+
+
+		<a class="left carousel-control" href="#slide" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#slide" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
 	<div class="space-ten"></div>
 	<div class="space-ten"></div>
-	<section><!---pesquisa-->
-		<?php include 'pesquisa.php'; ?>
-	</section>	
 	<div class="space-ten"></div>
 	<div class="space-ten"></div>
 	<!--QuickView-->
@@ -241,6 +242,10 @@
 			</div>
 		</div>
 	</section>
+	<div class="space-ten"></div>
+	<div class="space-ten"></div>
+	<div class="space-ten"></div>
+	<div class="space-ten"></div>
 	<footer>
 		<?php include 'rodape.php'; ?>
 	</footer>
