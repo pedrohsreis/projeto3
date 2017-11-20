@@ -2,7 +2,7 @@ h3,p{
     font-family: 'Ubuntu', sans-serif;
 }
 
-@media(min-width: 700px){
+@media(min-width: 760px){
     .card{
         text-align: center;
         margin-right: 3px;
@@ -22,6 +22,7 @@ h3,p{
     transition-delay: 0.2s;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 4%;
 }
 
 .principal{

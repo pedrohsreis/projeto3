@@ -58,6 +58,11 @@ include 'cabecalho.php';
                     </form>
                 </div>
             </div>
+            <?php
+            if(array_key_exists("enviado", $_GET) && $_GET["enviado"]=="true"){
+                echo "MENSAGEM ENVIADA COM SUCESSO!";
+            }
+            ?>
             <div class="col-md-5">
                 <form>
                     <legend><h3 align=center><b>Outras formas de contatos</b></h3></legend>
