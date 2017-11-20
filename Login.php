@@ -46,7 +46,7 @@
                                     
                                         <div style="font-size:85%">
                                             Ainda não é registrado?
-                                        <a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">
+                                        <a href="cadastro.php" onClick="$('#loginbox').hide(); $('#signupbox').show()">
                                             Registre-se
                                         </a>
                                         </div>
