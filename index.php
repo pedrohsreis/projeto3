@@ -76,8 +76,6 @@
 	<div class="space-ten"></div>
 	<!--QuickView-->
 	<section>
-		
-
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
@@ -185,11 +183,30 @@
 					<div class="modal-body">
 						<div class="row">
 							<div class="col-md-6 product_img">
-								<img src="img/bdcasa9.jpg" class="img-responsive">
+								<?php
+								$result_foto =  DBRead('imovel', 'order by idimovel desc limit 0,1', 'foto');
+								foreach ($result_foto as $foto){
+									echo "<img class = 'img-responsive' src='img/" . $foto['foto'] . "' alt='Foto de exibição' />";
+								}
+								?>
 							</div>
 							<div class="col-md-6 product_content">
-								<h4>CASA 1</h4>		                        
-								<p>Casas recém-construídas num empreendimento para conforto e economia de sua família e seus amigos.Cada casa possui:Dois quartos, todos com ar-condicionado e ventilador de teto, podendo conter uma cama de casal e um beliche, e claro, temos armadores para rede em todos os quartos.Sala com ventilador de teto, sofás, televisor LCD com assinatura SKY e armadores para rede.</p>              		                        
+								<h4>
+									<?php
+									$result_nome =  DBRead('imovel', 'order by idimovel desc limit 0,1', 'nome');
+									foreach ($result_nome as $nome){
+										echo $nome['nome'];
+									}
+									?>
+								</h4>		                        
+								<p>
+									<?php
+									$result_desc =  DBRead('imovel', 'order by idimovel desc limit 0,1', 'descricao');
+									foreach ($result_desc as $desc){
+										echo $desc['descricao'];
+									}
+									?>
+								</p>              		                        
 							</div>
 							<div class="space-ten"></div>		                       
 						</div>
@@ -207,11 +224,30 @@
 					<div class="modal-body">
 						<div class="row">
 							<div class="col-md-6 product_img">
-								<img src="img/bdcasa8.jpg" class="img-responsive">
+								<?php
+								$result_foto =  DBRead('imovel', 'order by idimovel desc limit 1,1', 'foto');
+								foreach ($result_foto as $foto){
+									echo "<img class = 'img-responsive' src='img/" . $foto['foto'] . "' alt='Foto de exibição' />";
+								}
+								?>
 							</div>
 							<div class="col-md-6 product_content">
-								<h4>CASA 2</h4>		                        
-								<p>Casas recém-construídas num empreendimento para conforto e economia de sua família e seus amigos.Cada casa possui:Dois quartos, todos com ar-condicionado e ventilador de teto, podendo conter uma cama de casal e um beliche, e claro, temos armadores para rede em todos os quartos.Sala com ventilador de teto, sofás, televisor LCD com assinatura SKY e armadores para rede.</p>              		                        
+								<h4>
+									<?php
+									$result_nome =  DBRead('imovel', 'order by idimovel desc limit 1,1', 'nome');
+									foreach ($result_nome as $nome){
+										echo $nome['nome'];
+									}
+									?>
+								</h4>		                        
+								<p>
+									<?php
+									$result_desc =  DBRead('imovel', 'order by idimovel desc limit 1,1', 'descricao');
+									foreach ($result_desc as $desc){
+										echo $desc['descricao'];
+									}
+									?>
+								</p>              		                        
 							</div>
 							<div class="space-ten"></div>		                       
 						</div>
@@ -229,11 +265,30 @@
 					<div class="modal-body">
 						<div class="row">
 							<div class="col-md-6 product_img">
-								<img src="img/bdcasa7.jpg" class="img-responsive">
+								<?php
+								$result_foto =  DBRead('imovel', 'order by idimovel desc limit 2,1', 'foto');
+								foreach ($result_foto as $foto){
+									echo "<img class = 'img-responsive' src='img/" . $foto['foto'] . "' alt='Foto de exibição' />";
+								}
+								?>
 							</div>
 							<div class="col-md-6 product_content">
-								<h4>CASA 3</h4>		                        
-								<p>Casas recém-construídas num empreendimento para conforto e economia de sua família e seus amigos.Cada casa possui:Dois quartos, todos com ar-condicionado e ventilador de teto, podendo conter uma cama de casal e um beliche, e claro, temos armadores para rede em todos os quartos.Sala com ventilador de teto, sofás, televisor LCD com assinatura SKY e armadores para rede.</p>              		                        
+								<h4>
+									<?php
+									$result_nome =  DBRead('imovel', 'order by idimovel desc limit 2,1', 'nome');
+									foreach ($result_nome as $nome){
+										echo $nome['nome'];
+									}
+									?>
+								</h4>		                        
+								<p>
+									<?php
+									$result_desc =  DBRead('imovel', 'order by idimovel desc limit 2,1', 'descricao');
+									foreach ($result_desc as $desc){
+										echo $desc['descricao'];
+									}
+									?>
+								</p>              		                        
 							</div>
 							<div class="space-ten"></div>		                       
 						</div>
