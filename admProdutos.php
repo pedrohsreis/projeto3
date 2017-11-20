@@ -12,8 +12,8 @@
   require 'database.php';
   ?>
 
-<section class="table-responsive">
-    <table class="table table-striped table-bordered">
+<div class="table-responsive">
+    <table class="table">
       <thead>
         <tr>
           <th>id</th>
@@ -25,22 +25,19 @@
         </tr>
       </thead>
       <tbody>
-        <?php
-        $result_imovel =  DBRead('imovel', 'order by idimovel');
-        foreach ($result_imovel as $v){
-         echo "<tr><th scope = 'row'>".$v['idimovel']."</th>";
-         echo "<td><img width='160' height='120' src='img/" . $v['foto'] . "' alt='Foto de exibição'/></td>";
-         echo "<td>".$v['nome']."</td>";
-         echo "<td>".$v['descricao']."</td>";
-         echo "<td>Alterar</td>";
-         echo "<td>Remover</td></tr>";
-       }
-       ?>
+        <?php $result_imovel =  DBRead('imovel', 'order by idimovel')?>
+        <?php foreach ($result_imovel as $v) :  ?>
+          <tr>
+             <th scope = row><?php echo $v['idimovel'] ?></th>
+             <td><img width=160 height=120 src="img/<?php echo $v['foto'] ?>" alt="Foto de exibição"></td>
+             <td><?php echo $v['nome'] ?></td>
+             <td><?php echo $v['descricao'] ?></td>
+             <td>Alterar</td>
+             <td>Remover</td>
+          </tr>
+       <?php endforeach; ?>
      </tbody>
    </table>
- </section>
+ </div>
 </body>
 </html>
-
-
-

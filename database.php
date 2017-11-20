@@ -1,3 +1,4 @@
+
 <?php 
 	// Ler Registros
 function DBRead($table, $params = null, $fields = "*"){
@@ -16,8 +17,6 @@ function DBRead($table, $params = null, $fields = "*"){
 	}
 
 }
-
-
 	// Executa Querys
 function DBExecute($query){
 	$link = DBConnect();
@@ -26,7 +25,6 @@ function DBExecute($query){
 	DBClose($link);
 	return $result;
 }
-
 	// Grava registros
 function DBCreate($table, array $data){
 	//$table = DB_PREFIX.'_'.$table;
