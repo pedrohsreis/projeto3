@@ -10,7 +10,7 @@
 	mysqli_query($conexao, $query);
 
 	mysqli_close($conexao);
-	
+	header("Location: contato.php?enviado=true");
+	die();
 	?>
-	MENSAGEM ENVIADA COM SUCESSO!
 	</html>
