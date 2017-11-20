@@ -9,12 +9,3 @@ th{
 	font-size: 20px;
 }
 
-@media(min-width: 760px) {
-	th{
-		display: block;
-		position: relative;
-		width: 100%;
-	}
-
-}
-
