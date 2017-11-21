@@ -80,7 +80,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view">
+						<a type="link" class="btn btn-primary" data-toggle="modal" data-target="#product_view">
 							<?php
 							$result_foto =  DBRead('imovel', 'order by idimovel desc limit 0,1', 'foto');
 							foreach ($result_foto as $foto){
@@ -110,7 +110,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view2">
+						<a type="link" class="btn btn-primary" data-toggle="modal" data-target="#product_view2">
 							<?php
 							$result_foto =  DBRead('imovel', 'order by idimovel desc limit 1,1', 'foto');
 							foreach ($result_foto as $foto){
@@ -140,7 +140,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view3">
+						<a type="link" class="btn btn-primary" data-toggle="modal" data-target="#product_view3">
 							<?php
 							$result_foto =  DBRead('imovel', 'order by idimovel desc limit 2,1', 'foto');
 							foreach ($result_foto as $foto){
