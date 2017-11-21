@@ -12,7 +12,6 @@
 <div class="col-md-4 col-md-offset-4">
     <div class="panel panel-default">
   <div class="panel-heading"><h3 class="panel-title"><strong>Login </strong></h3>
-      <div style="float:right; font-size: 80%; position: relative; top:-10px"><a href="#">Esqueceu a senha?</a></div>
   </div>
   
   <div class="panel-body">
@@ -44,12 +43,7 @@
 
 <div class="form-group">
                                     
-                                        <div style="font-size:85%">
-                                            Ainda não é registrado?
-                                        <a href="cadastro.php" onClick="$('#loginbox').hide(); $('#signupbox').show()">
-                                            Registre-se
-                                        </a>
-                                        </div>
+                                        
                                     
                                 </div> 
 </form>                                    

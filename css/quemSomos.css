@@ -33,7 +33,3 @@ h3,p{
 transform: scale(1.2);
 }
 
-body{
-    background: linear-gradient(to bottom, #FFF, #C0C0C0, #333333) fixed;
-}
-
