@@ -12,7 +12,7 @@ $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 $mail->Username = "gabrieliorio7@gmail.com";
-$mail->Password = "aerosmith7";
+$mail->Password = "*******";
 
 $mail->setFrom("gabrieliorio7@gmail.com", "Administrador de contatos");
 $mail->addAddress($email);
