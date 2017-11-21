@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/Lista.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/Lista.css">
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
 
 	<?php

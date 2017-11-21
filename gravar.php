@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-	</head>
-	</body>
-		<?php
-			include_once("conexao.php");
-			$arquivo 	= $_FILES['arquivo']['name'];
-			
+<head>
+	<meta charset="utf-8">
+</head>
+</body>
+<?php
+include_once("conexao.php");
+$arquivo 	= $_FILES['arquivo']['name'];
+
 			//Pasta onde o arquivo vai ser salvo
-			$_UP['pasta'] = 'img/';
-			
+$_UP['pasta'] = 'img/';
+
 			//Tamanho máximo do arquivo em Bytes
 			$_UP['tamanho'] = 1024*1024*100; //5mb
 			
@@ -37,20 +37,20 @@
 			$extensao = strtolower(end(explode('.', $_FILES['arquivo']['name'])));
 			if(array_search($extensao, $_UP['extensoes'])=== false){		
 				echo "
-					<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/Code3/projeto3/InsereImagem.php'>
-					<script type=\"text/javascript\">
-						alert(\"A imagem não foi cadastrada extesão inválida.\");
-					</script>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/Code3/projeto3/InsereImagem.php'>
+				<script type=\"text/javascript\">
+				alert(\"A imagem não foi cadastrada extesão inválida.\");
+				</script>
 				";
 			}
 			
 			//Faz a verificação do tamanho do arquivo
 			else if ($_UP['tamanho'] < $_FILES['arquivo']['size']){
 				echo "
-					<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/Code3/projeto3/InsereImagem.php'>
-					<script type=\"text/javascript\">
-						alert(\"Arquivo muito grande.\");
-					</script>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/Code3/projeto3/InsereImagem.php'>
+				<script type=\"text/javascript\">
+				alert(\"Arquivo muito grande.\");
+				</script>
 				";
 			}
 			
@@ -69,24 +69,23 @@
 					//Upload efetuado com sucesso, exibe a mensagem
 					$query = mysqli_query($conn, "INSERT INTO imovel (foto) VALUES('$nome_final')");
 					echo "
-						<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/Code3/projeto3/InsereImagem.php'>
-						<script type=\"text/javascript\">
-							alert(\"Imagem cadastrada com Sucesso.\");
-						</script>
+					<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/Code3/projeto3/InsereImagem.php'>
+					<script type=\"text/javascript\">
+					alert(\"Imagem cadastrada com Sucesso.\");
+					</script>
 					";	
 				}else{
 					//Upload não efetuado com sucesso, exibe a mensagem
 					echo "
-						<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/Code3/projeto3/InsereImagem.php'>
-						<script type=\"text/javascript\">
-							alert(\"Imagem não foi cadastrada com Sucesso.\");
-						</script>
+					<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/Code3/projeto3/InsereImagem.php'>
+					<script type=\"text/javascript\">
+					alert(\"Imagem não foi cadastrada com Sucesso.\");
+					</script>
 					";
 				}
 			}
 			
 			
-		?>
-		
-	</body>
+			?>
+</body>
 </html>
