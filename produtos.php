@@ -87,8 +87,7 @@
 
 
 
-    <section class="container">
-        <h2>EM DESTAQUE</h2>         
+    <section class="container">        
         <figure class="thumbnail projeto-responsivo">
             <?php
             $sqp = mysqli_query($conn, "SELECT idimovel FROM imovel order by idimovel DESC limit 1");
@@ -157,38 +156,6 @@
 
 
     </section>
-
-    <section class="container">
-        <h2>MAIS PROXIMOS DE VOCÊ</h2>
-
-        <figure class="thumbnail projeto-responsivo">
-            <img src="img/casa1.jpg" alt="Foto da Casa Castelo">
-            <figcaption class="caption">
-                <h3>Casa em frente ao shopping</h3>
-                <p>Uma casa perfeita para morar.</p>
-            </figcaption>
-        </figure>
-
-        <figure class="thumbnail projeto-responsivo">
-            <img src="img/casa2.jpg" alt="Foto da Casa Castelo">
-            <figcaption class="caption">
-                <h3>Casa em frente ao shopping</h3>
-                <p>Uma casa perfeita para morar.</p>
-            </figcaption>
-        </figure>
-
-        <figure class="thumbnail projeto-responsivo">
-            <img src="img/casa3.jpg" alt="Foto da Casa Castelo">
-            <figcaption class="caption">
-                <h3>Casa em frente ao shopping</h3>
-                <p>Uma casa perfeita para morar.</p>
-            </figcaption>
-        </figure>
-    </section>
-
-
-
-
     <?php include 'Rodape.php'; ?>
 </body>
 
