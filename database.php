@@ -51,6 +51,13 @@ function insereProduto($nome, $descricao, $foto, $timovel, $caluga){
 }
 //alteraProduto
 function alteraProduto($id, $nome, $descricao, $foto, $timovel, $caluga){
+	if($foto == null){
+		$queryf = "SELECT foto FROM imovel WHERE idimovel = {$id}";
+		$result_foto = DBExecute($queryf);
+		foreach ($result_foto as $sfoto) {
+			$foto = $sfoto['foto'];
+		}
+	}
 	$link = DBConnect();
 	$query = "UPDATE imovel SET nome = '{$nome}', descricao = '{$descricao}', TipoImovel = {$timovel}, tipo_venda = {$caluga}, foto = '{$foto}' WHERE idimovel = $id";
 	return @mysqli_query($link, $query) or die(mysqli_error($link));
