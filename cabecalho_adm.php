@@ -31,23 +31,20 @@
           <div class="container">
             <ul class="nav navbar-nav">
               <ul class="nav navbar-nav">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home_adm.php">Home</a></li>
               </ul>
               <ul class="nav navbar-nav">
-                <li><a href="produtos.php">Produto</a></li>
+                <li><a href="admProdutos.php">Administração dos Produtos</a></li>
               </ul>
               <ul class="nav navbar-nav">
-                <li><a href="quem-somos.php">Quem somos</a></li>
+                <li><a href="contato-lista.php">Administração dos Contatos</a></li>
               </ul>
               <ul class="nav navbar-nav">
-                <li><a href="localicacao.php">Localização</a></li>
-              </ul>
-              <ul class="nav navbar-nav">
-                <li><a href="contato.php">Contato</a></li>
+                <li><a href="cadastro.php">Cadastro dos Usuários</a></li>
               </ul>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="login.php">Login</a></li>
+              <li><a href="logout.php">Logout</a></li>
             </ul>
           </div>
         </div><!-- /.navbar-collapse -->

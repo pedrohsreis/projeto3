@@ -38,6 +38,9 @@ if(isset($_POST['nome']))
         
         $_SESSION['nome'] = $nome;
         $_SESSION['senha'] = $senha;
+
+        header("location: home_adm.php")
+
       } 
     }
     

@@ -52,10 +52,9 @@
 
 
 </main>
-<br><br>
-<footer>
-<?php include 'Rodape.php' ?>;
-</footer>
+
+
+<?php include 'Rodape.php' ?>
 
 </body>
 </html>

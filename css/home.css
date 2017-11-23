@@ -1,3 +1,6 @@
+.thumbnail a.btn.btn-primary{
+    border: none;
+}
 .carousel-inner .item img{
 	max-width: none;
 }
@@ -20,7 +23,7 @@
     background-color: #FFF;
 }
 .thumbnail .btn-primary:hover{
-    background-color: #FF9933
+    background-color: #FF9933;
 }
 .texto{
     font-weight: bold;
@@ -34,7 +37,4 @@ p{
     display: inline-block;
     padding: 5px 5px 10px 5px;
     border: none;
-}
-.button{
-    appearance: none;
 }
