@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Cadastro de usuário</title>
         <link rel="stylesheet" href="css/normalize.css">
-
+        <link rel="icon" href="img/icone.png">  
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -15,11 +15,8 @@
 
  <div class="btn-group btn-group-justified" align="center">
      <nav>
-         <ul class="menu">
-            <a href="index.php" class="btn btn-primary"><li>Página Home</li></a>
-             <a href="cadastro.php" class="btn btn-primary"><li>Cadastro</li></a>
-             <a href="consultas.php" class="btn btn-primary"><li>Consulta</li></a>
-         </ul>
+         <?php include 'cabecalho_adm.php';?>
+
      </nav>
  </div>
     <div class="container" align="center">
@@ -30,6 +27,7 @@
          <form method="post" action="processa.php">
              <input type="submit" value="Salvar" class="btn"/>
              <input type="reset" value="Limpar" class="btn"/>
+             <a href="consultas.php" class="btn">Consulta</a>
              <br><br>
              
              Nome <br>
@@ -42,4 +40,5 @@
      </section>
  </div>
 </body>
+    <br><br><?php include 'rodape_adm.php';?>
 </html>

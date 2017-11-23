@@ -15,12 +15,13 @@
 include 'cabecalho.php'; 
      //include 'pesquisa.php'; esse include faz o banco de dados parar de funcionar
 ?>
+
 <main>
     <br><br><div class="container">
         <div class="row">
             <div class="col-md-7">
                 <div class="well well-sm">
-                 <h1>Contatos</h1><br><br>
+                 <h1>Contato</h1><br><br>
                  
                  <form  method="post" action="sucesso.php">
                     
@@ -32,7 +33,7 @@ include 'cabecalho.php';
                                 <input type="text" name="nome" class="form-control" id="nome" placeholder="Insira seu nome" required="required" /><br>
                                 
                                 
-                                <class="form-control">
+                                 <class="form-control">
 
                                 <label for="email">Email</label>
                                 <input type="email" name="email" class="form-control" id="email" placeholder="Insira seu email" required="required" /><br>
@@ -58,30 +59,18 @@ include 'cabecalho.php';
                     </form>
                 </div>
             </div>
-            <?php
-            if(array_key_exists("enviado", $_GET) && $_GET["enviado"]=="true"){
-                echo "<p class='alert alert-success'>Mensagem enviada com sucesso!</p>";
-            }
-            ?>
-            <div class="col-md-5">
-                <form>
-                    <legend><h3 align=center><b>Outras formas de contatos</b></h3></legend>
-                    
-                    
-                    
-                    <legend>
-                        
 
-                        
-                        <label><a href="#"><img class="img-responsive" id="twitter" title="Página da empresa no Twitter." src="img/Twitter.png" alt="" width="70" height="70"></a></label>
-                        <label><a href="#"><img class="img-responsive" id="facebook" title="Página da empresa no Facebook." src="img/facebook.png" alt="" width="70" height="70"></a></label>
-                        <label><a href="#"><img class="img-responsive" id="instagram" title="Página da empresa no Instagram." src="img/instagram.png" alt="" width="70" height="70"></a></label>
-                        <label><a href="#"><img class="img-responsive" id="google+" title="página da empresa no Google Plus." src="img/google+.png" alt="" width="70" height="70"></a></label>
+            
 
-                    </form>
-                </div>
             </div>
         </div><br>
     </main>
+    <div class="suc">
+    <?php
+            if(array_key_exists("enviado", $_GET) && $_GET["enviado"]=="true"){
+                echo "<p class='alert alert-success'>MENSAGEM ENVIADA COM SUCESSO!</p>";
+            }
+            ?>
+        </div>
 
     <?php include 'Rodape.php'; ?>

@@ -7,9 +7,9 @@
   <link rel="stylesheet" type="text/css" href="css/quemSomos.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link rel="icon" href="img/felicidade.png">
+  <link rel="icon" href="img/icone.png">  
 
-  <title>Felicidade Imóveis--Quem Somos</title>
+  <title>Quem Somos</title>
 
 </head>
 <header>
