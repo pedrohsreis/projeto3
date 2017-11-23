@@ -11,13 +11,13 @@
     <title></title>
 </head>
 <body>
-    <div class="container" align="text-center"><!---pesquisa-->
+    <div class="container" style="padding-left: 10%; padding-right: 10%;"><!---pesquisa-->
         <div  class="form-row">
             <div  class="col-md-5">
                 <form method="post" action="produtos.php" >
                  <input class="w3-input " style="width:100%" type="text" name="Nome"  size="40" placeholder="Digite um bairro ou cidade. ">
              </div>
-             <div class="col-md-3 text-center">
+             <div class="col-md-2 text-center">
 
                 <p> <select class="w3-select" name="tipoImovel" id="ti">
                     <option value="1">Casa</option>
@@ -35,8 +35,8 @@
                     <option value="2">Alugar</option>
                 </select>
             </div>
-            <div class="w3-col m2 text-center" >
-                <input id="divBusca" style="width: 50%" class="w3-btn w3-signal-black w3-large w3-round-large" type="submit" value="Buscar" >
+            <div class="col-md-2 text-center" >
+                <input id="divBusca" style="width: 100%" class="w3-btn w3-signal-black w3-large w3-round-large" type="submit" value="Buscar" >
             </div>
         </div>
 
