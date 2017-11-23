@@ -1,7 +1,12 @@
-	<?php
-		include("conexao.php");
-		include("banco-contato.php");
-	?>
+<?php
+    include("conexao.php");
+    include("banco-contato.php");
+    require 'config.php';
+    require 'connection.php';
+    require 'database.php';
+    
+    
+?>
 <head>
     <meta charset="utf-8">
     <title>Home Administrativa</title>
@@ -12,24 +17,34 @@
 <?php include 'cabecalho_adm.php';?> 
 <body>
     <br><h1 align="center">Bem vindo a área administrativa.</h1>
-    <br><p align='center'>Aqui nessa área você consegue ver a quantidade de produtos cadastrados e a quantidade de mensagens recebidas pela página contatos.</p><br>
-    <div class="col-md-6">
+    <br><div class="col-md-12" align='center'>Aqui nessa área você consegue ver a quantidade de produtos cadastrados e a quantidade de mensagens recebidas pela página contatos, além de poder cadastrar novos usuários.</div><br><br>
+    <div class="col-md-6"><br>
         <div class="well well-sm">
             <legend><h4 align='center'>Quantidade de Produtos cadastrados</h4></legend><br>
-            <p>Temos 0 produtos cadastrados no site.</p>
-            <p>Clique <a>aqui</a> para acessar a página de cadastros dos produtos.</p>
+            
+            <p align='justfied'>Abaixo a quantidade de produtos cadastrados:</p>
+            <?php $aa = DBRead('imovel', 'order by idimovel desc limit 1')[0] ?><br>
+            
+            Temos <?php echo sizeof($aa) ?> Produos Cadastrados!<br><br>
+            
+            <p>Clique <a href="admProdutos.php">aqui</a> para acessar a página de cadastros dos produtos.</p>
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="well well-sm">
-            <legend><h4 align='center'>Quantidade de Mensagens Recebidas</h4></legend><br>
-            <p>Temos 0 mensagens recebidas no site.</p>
-            <p>Clique <a>aqui</a> para acessar a página de administração dos contatos.</p>
-        </div>
-    </div>
+        <div class="col-md-6"><br>
+            <div class="well well-sm">
+                <legend><h4 align='center'>Quantidade de Mensagens recebidas</h4></legend><br>
 
+                <p align='justfied'>Abaixo a quantidade de mensagens recebidas:</p>
+                
+                <?php $bb = DBRead('contato', 'order by idcontato')[0] ?><br>
+                
+                Temos <?php echo sizeof($bb) ?> Mensagens Recebidas!<br><br>
+                
+                <p>Clique <a href="contato-lista.php">aqui</a> para acessar a página de mensagens.</p>
+            </div>
+        </div>
 </body>    
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 <footer>

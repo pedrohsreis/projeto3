@@ -60,7 +60,7 @@ include 'cabecalho.php';
             </div>
             <?php
             if(array_key_exists("enviado", $_GET) && $_GET["enviado"]=="true"){
-                echo "MENSAGEM ENVIADA COM SUCESSO!";
+                echo "<p class='alert alert-success'>Mensagem enviada com sucesso!</p>";
             }
             ?>
             <div class="col-md-5">

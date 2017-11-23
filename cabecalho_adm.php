@@ -30,10 +30,10 @@
           <div class="container">
             <ul class="nav navbar-nav">
               <ul class="nav navbar-nav">
-                <li><a href="home_adm.php">Home</a></li>
+                <li><a href="home_adm.php">Home Administrativa</a></li>
               </ul>
               <ul class="nav navbar-nav">
-                <li><a href="#">Administração dos Produtos</a></li>
+                <li><a href="admProdutos.php">Administração dos Produtos</a></li>
               </ul>
               <ul class="nav navbar-nav">
                 <li><a href="contato-lista.php">Administração dos Contatos</a></li>
