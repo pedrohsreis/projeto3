@@ -11,9 +11,9 @@ if(isset($_POST['nome']))
 
       $nome = $_POST['nome'];
       $senha = base64_encode($_POST['Senha']);
-      $senha2 = base64_decode($senha);
+      
 
-     $sql = "SELECT * FROM user WHERE username='$nome' and senha = '$senha2'";
+     $sql = "SELECT * FROM user WHERE username='$nome' and senha = '$senha'";
     $sqll = mysqli_query($conn, $sql);
       $aq = mysqli_fetch_assoc($sqll);
       $conta = mysqli_num_rows($sqll);
