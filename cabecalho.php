@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="img/icone.png">  
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/cabecalho1.0.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

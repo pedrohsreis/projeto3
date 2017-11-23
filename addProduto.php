@@ -4,7 +4,6 @@ require 'connection.php';
 require 'database.php';
 ?>
 <?php 
-$id = $_POST['id'];
 $nome = $_POST['nome'];
 $descricao = $_POST['descricao'];
 $foto = $_POST['foto'];
@@ -12,10 +11,10 @@ $timovel = $_POST['tipoImovel'];
 $caluga = $_POST['venda'];
 
 
-if(alteraProduto($id, $nome, $descricao, $foto, $timovel, $caluga)){
-	header("Location: admProdutos.php?alterado=true");	
+if(insereProduto($nome, $descricao, $foto, $timovel, $caluga)){
+	header("Location: Formulario-Produto.php?removido=true");	
 }
 else{
-	header("Location: admProdutos.php?alterado=false");
+	header("Location: Formulario-Produto.php?removido=false");
 }
 die();
