@@ -1,9 +1,11 @@
     	<?php
 
-            header("location: Valida.php");
+            session_start();
 
             if(!isset($_SESSION['nome']) && !isset($_SESSION['senha']))
+            {
                 header("location: Login.php");
+            }
 
     		include("conexao.php");
     		include("banco-contato.php");

@@ -4,7 +4,7 @@ include_once("conexao.php");
 
 $username = $_POST['username'];
 $tipouser = $_POST['tipouser'];
-$senha = $_POST['senha'];
+$senha = base64_encode($_POST['senha']);
 
 $sql = "insert into user (username,tipouser,senha) values ('$username','$tipouser','$senha')";
 $salvar = mysqli_query($conn,$sql);
