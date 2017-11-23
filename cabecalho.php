@@ -34,7 +34,7 @@
                 <li><a href="index.php">Home</a></li>
               </ul>
               <ul class="nav navbar-nav">
-                <li><a href="produtos.php">Produtos</a></li>
+                <li><a href="produtos.php">Produto</a></li>
               </ul>
               <ul class="nav navbar-nav">
                 <li><a href="quem-somos.php">Quem somos</a></li>
@@ -43,7 +43,7 @@
                 <li><a href="localicacao.php">Localização</a></li>
               </ul>
               <ul class="nav navbar-nav">
-                <li><a href="contato.php">Contatos</a></li>
+                <li><a href="contato.php">Contato</a></li>
               </ul>
             </ul>
             <ul class="nav navbar-nav navbar-right">
