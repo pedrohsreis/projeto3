@@ -40,20 +40,20 @@
 
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img class="img" src="img/imgslide.jpg" alt="casa1">
+				<img class="img" src="img/quickcasa1.jpg" alt="casa1">
 				<div class="carousel-caption">
 					<h1>Residência dos Sonhos</h1>
 					<h3>Acordar na paz do interior</h3>
 				</div>
 			</div>
 			<div class="item">
-				<img src="img/imgslide2.jpg" alt="casa2">
+				<img src="img/quickcasa2.jpg" alt="casa2">
 				<div class="carousel-caption">
 					<h1>segunda casa</h1>
 				</div>
 			</div>
 			<div class="item">
-				<img src="img/imgslide3.jpg" alt="casa3">
+				<img src="img/quickcasa3.png" alt="casa3">
 				<div class="carousel-caption">
 					<h1>terceira casa</h1>
 				</div>

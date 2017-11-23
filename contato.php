@@ -33,7 +33,7 @@ include 'cabecalho.php';
                                 <input type="text" name="nome" class="form-control" id="nome" placeholder="Insira seu nome" required="required" /><br>
                                 
                                 
-                                <class="form-control">
+                                 <class="form-control">
 
                                 <label for="email">Email</label>
                                 <input type="email" name="email" class="form-control" id="email" placeholder="Insira seu email" required="required" /><br>
