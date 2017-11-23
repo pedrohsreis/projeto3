@@ -58,6 +58,7 @@ function alteraProduto($id, $nome, $descricao, $foto, $timovel, $caluga){
 			$foto = $sfoto['foto'];
 		}
 	}
+
 	$link = DBConnect();
 	$query = "UPDATE imovel SET nome = '{$nome}', descricao = '{$descricao}', TipoImovel = {$timovel}, tipo_venda = {$caluga}, foto = '{$foto}' WHERE idimovel = $id";
 	return @mysqli_query($link, $query) or die(mysqli_error($link));
