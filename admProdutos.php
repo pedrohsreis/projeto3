@@ -13,7 +13,7 @@
     <header>
       <div class="row">
         <div class="col-sm-6">
-          <h2>Clientes</h2>
+          <h2>Produtos</h2>
         </div>
         <div class="col-sm-6 text-right h2">
           <a class="btn btn-primary" href="Formulario-Produto.php"><i class="fa fa-plus"></i> Novo Produto</a>
