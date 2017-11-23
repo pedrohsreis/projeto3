@@ -25,14 +25,14 @@
             <div class="well well-sm">
                 <legend><h4 align='center'>Quantidade de Produtos cadastrados</h4></legend><br>
                 <p>Temos 0 produtos cadastrados no site.</p>
-                <p>Clique <a>aqui</a> para acessar a página de cadastros dos produtos.</p>
+                <p>Clique <a href="admProdutos.php">aqui</a> para acessar a página de cadastros dos produtos.</p>
             </div>
         </div>
         <div class="col-md-6">
             <div class="well well-sm">
                 <legend><h4 align='center'>Quantidade de Mensagens Recebidas</h4></legend><br>
                 <p>Temos 0 mensagens recebidas no site.</p>
-                <p>Clique <a>aqui</a> para acessar a página de administração dos contatos.</p>
+                <p>Clique <a href="cadastro.php">aqui</a> para acessar a página de administração dos contatos.</p>
             </div>
         </div>
 
