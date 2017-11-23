@@ -10,5 +10,13 @@ label {
     display: inline-block;
     width: 90px;
     text-align: justify;
-    margin-left: 15px;
+}
+
+@media(min-width: 760px){
+main{
+	margin-left: 320px;
+}
+.suc{
+	text-align: center;
+}
 }

@@ -20,11 +20,11 @@
     <div class="container">
         
       <div class="row mt-5 mb-3">
-          <h3 id="titulopag"class="mr-auto ml-auto"><br><br>Localização</h3>
+          <h2 id="titulopag" class="loca"><br><br>Localização</h2>
       </div>
       <div class="row">
         
-        <div id="mapa" class="mr-auto ml-auto"><br><br>
+        <div id="mapa" class="google-maps"><br><br>
             <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.081
               9013014757!2d-43.36035768565426!3d-21.77709100400852!2m3!1f0!2f0!3f0!3m2!1i1024!2i7
               68!4f13.1!3m3!1m2!1s0x989b6d7cb269f7%3A0x6cdd240dc0f7eafa!2sSouza+Gomes+Im%C3%B3veis!5e0!3m2!1spt-BR!2sbr!4v1507138767524"
