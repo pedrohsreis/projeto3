@@ -36,7 +36,7 @@
   <img class="card-img-top" src="img/icone-visao3.png" alt="Card image cap">
   <div class="card-block">
     <h3 class="card-title">Visão</h3>
-    <p class="card-text"><strong>Ser uma empresa do ramo de imóveis reconhecida e respeitada no mercado almejando causar grande impacto em tal mercado e se tornar uma referência no setor na cidade de Juiz de Fora.</strong></p>
+    <p class="card-text"><strong>Ser uma empresa do ramo de imóveis reconhecida e respeitada no mercado</strong></p>
   </div>
 </div>
 

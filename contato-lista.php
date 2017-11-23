@@ -11,7 +11,9 @@
 	<?php
 		include("conecta.php");
 		include("banco-contato.php");
+		include("cabecalho_adm.php");
 	?>
+	<br></br>
 	<title>Listagem de contatos</title>
 </head>
 <body>
@@ -20,12 +22,12 @@
 <div class="table-responsive">
 <table class="table table-bordered">
 	<thead>
-	  <th scope="col">Nome</th>
-      <th scope="col">Email</th>
-      <th scope="col">Assunto</th>
-      <th scope="col">Mensagem</th>
-      <th scope="col">Responder</th>
-      <th scope="col">Remover</th>
+	  <th scope="col"><strong>Nome</strong></th>
+      <th scope="col"><strong>Email</strong></th>
+      <th scope="col"><strong>Assunto</strong></th>
+      <th scope="col"><strong>Mensagem</strong></th>
+      <th scope="col"><strong>Responder</strong></th>
+      <th scope="col"><strong>Remover</strong></th>
 	<?php
 		$contatos=listaContatos($conexao);
 		foreach ($contatos as $mensagem) : 
@@ -54,5 +56,10 @@
 	</thead>
 </table>
 </div>
+<footer>
+	<?php
+	include("rodape_adm.php");
+	?>
+</footer>
 </body>
 </html>
