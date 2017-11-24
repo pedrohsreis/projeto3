@@ -16,7 +16,7 @@
  <div class="btn-group btn-group-justified" align="center">
      <nav>
          <ul class="menu">
-            <a href="index.php" class="btn btn-primary"><li>Página Home</li></a>
+            <a href="home_adm.php" class="btn btn-primary"><li>Página Home</li></a>
              <a href="cadastro.php" class="btn btn-primary"><li>Cadastro</li></a>
              <a href="consultas.php" class="btn btn-primary"><li>Consulta</li></a>
          </ul>

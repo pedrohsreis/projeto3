@@ -83,4 +83,4 @@
 </div><!--container-->
 </body>
 </html>
-<?php require 'rodape.php' ?>
+<?php require 'rodape_adm.php' ?>
