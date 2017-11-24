@@ -41,6 +41,6 @@
 
 
     <footer>
-        <?php include 'rodape_adm.php';?>
+        <?php include('rodape_adm.php');?>
     </footer>
         

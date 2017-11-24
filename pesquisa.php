@@ -13,7 +13,7 @@
         <div  class="form-row">
             <div  class="col-md-5">
                 <form method="post" action="produtos.php" >
-                 <input class="w3-input " style="width:100%" type="text" name="Nome"  size="40" placeholder="Digite um bairro ou cidade. ">
+                 <input class="w3-input " style="width:100%" type="text" name="Nome"  size="40" placeholder="Procure seu imóvel aqui.">
              </div>
              <div class="col-md-2 text-center">
 

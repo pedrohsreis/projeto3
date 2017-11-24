@@ -13,7 +13,6 @@
 </head>
 <?php
 include 'cabecalho.php'; 
-     //include 'pesquisa.php'; esse include faz o banco de dados parar de funcionar
 ?>
 
 <main>

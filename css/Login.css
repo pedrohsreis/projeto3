@@ -3,9 +3,11 @@
 	background-color:#333333;
 	color:white;
 }
-.container{
+.pandorabox{
 	position: relative;
-	top: 50%;
 	transform: translateY(-50%); 
-	
+	}
+
+.pezinho{
+	margin-bottom: 0px;
 }
