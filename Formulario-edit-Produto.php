@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['nome']) && !isset($_SESSION['senha']))
+{
+  header("location: Login.php");
+}
+?>
 <?php require 'cabecalho_adm.php' ?>
 <!DOCTYPE html>
 <html>

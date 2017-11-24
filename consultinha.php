@@ -1,4 +1,12 @@
 <?php
+session_start();
+
+if(!isset($_SESSION['nome']) && !isset($_SESSION['senha']))
+{
+  header("location: Login.php");
+}
+?>
+<?php
 include_once("conexao.php");
  
 $filtro = isset($_GET['filtro'])?$_GET['filtro']:"";
