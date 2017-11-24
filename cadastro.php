@@ -34,10 +34,21 @@ if(!isset($_SESSION['nome']) && !isset($_SESSION['senha']))
          
          <form method="post" action="consultas.php">
              
-             Nome <br>
+             Nome  <br>
              <input type="text" name="username" class="campo" maxlenght="45" required autofocus/><br>
-             Tipo <br>
-             <input type="number" name="tipouser" class="campo" maxlenght="11" required/><br>
+             <br>
+             Tipo<br>
+             <div class="form-row">
+            <div class="form-group">
+              <select class="form-group" name="tipouser">
+                <option value="1" >Master</option>
+                <option value="2" >Administrador</option>
+                <option value="3">Corretor</option>
+              </select>
+              <br>
+            </div>
+          </div>
+
              Senha <br>
              <input type="password" name="senha" class="campo" maxlenght="100" required/><br>
              <br>
