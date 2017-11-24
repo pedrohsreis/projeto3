@@ -14,9 +14,9 @@
 
 </head>
 <body>
-
+<br><br>
 <div class="container">
-<div class="pandorabox" style="margin-top:30px">
+<div class="pandorabox">
   <div class="col-md-4 col-md-offset-4">
     <div class="panel panel-default">
 
