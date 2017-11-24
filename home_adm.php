@@ -29,7 +29,7 @@
     <?php include 'cabecalho_adm.php';?> 
     <body>
         <br><h1 align="center">Bem vindo a área administrativa.</h1>
-        <br><p align='center'>Aqui nessa área você consegue ver a quantidade de produtos cadastrados e a quantidade de mensagens recebidas pela página contatos.</p><br>
+        <br><p align='center'>Nessa área você consegue ver a quantidade de produtos cadastrados e a quantidade de mensagens recebidas por contatantes.</p><br>
         <div class="col-md-6">
             <div class="well well-sm" align='center'>
                 <legend><h4>Quantidade de Produtos cadastrados</h4></legend><br>

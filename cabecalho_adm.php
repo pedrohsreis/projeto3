@@ -44,6 +44,9 @@
                 <ul class="nav navbar-nav">
                   <li><a href="cadastro.php">Cadastro de Usuário</a></li>
                 </ul>
+                <ul class="nav navbar-nav">
+                  <li><a href="consultinha.php">Administração de Usuários</a></li>
+                </ul>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                <li><a href="logout.php">Logout</a></li>

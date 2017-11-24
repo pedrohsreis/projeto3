@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta lang="pt-br">
     <meta charset="utf-8">
     <title>Pagina produtos</title>
     <link rel="icon" href="img/icone.png">
