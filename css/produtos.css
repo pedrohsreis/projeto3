@@ -36,6 +36,7 @@
     .projeto-responsivo{
         width:33.33333%;
         float: left;
+        margin-left: 10%;
     }
     @keyframes letterspacing {
     0% {
@@ -148,11 +149,17 @@ ul li a i {
         
     
 }
+ .container{
+    display: block;
+    padding-left: 30%;
+    padding-right: 30%;
+}
 .btn{
     padding: 6px;
     border: none;
 }
 div .thumbnail{
+    border-left: 100px;
     margin-bottom: 30px;
 }
 .thumbnail .btn-primary{

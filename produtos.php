@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta lang="pt-br">
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta http-equiv="Content-Language" content="pt-br">
     <meta charset="utf-8">
     <title>Pagina produtos</title>
     <link rel="icon" href="img/icone.png">
@@ -65,7 +67,6 @@
             $sql2 = mysqli_num_rows($sql);
             echo "Resultado da Busca: $sql2 itens encontrados. ";
             echo'<br><br>';
-            
             while ($exibe = mysqli_fetch_assoc($sql)) {
                 ?>
 
@@ -73,7 +74,7 @@
                     <?php echo "<img src='img/" . $exibe['foto'] . "' alt='Foto de exibição' />" . '<br>'; ?> 
                     <figcaption class="caption">
                         <h3><?php echo $exibe['nome']; ?></h3>
-                        <p><?php echo $exibe['descricao']; ?></p>
+                        <p><?=substr($exibe['descricao'], 0, 50) ?></p>
                     </figcaption>
                 </figure>
                 <?php
@@ -88,13 +89,15 @@
     require 'config.php';
     require 'connection.php';
     require 'database.php';
-    ?>
 
+    if(isset($_POST['Nome'])){
+        die();
+    }
+    ?>
     <?php $result_imovel =  DBRead('imovel', 'order by idimovel')?>
     <?php if ($result_imovel) : ?>
       <section>
           <?php foreach ($result_imovel as $v) :  ?>
-
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
