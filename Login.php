@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Felicidade Imoveis</title>
+  <title>Login - Felicidade Imoveis</title>
+<link rel="icon" href="img/icone.png">  
   <meta charset="UTF-8">
   <meta name ="Descriçao" content="Login">
   <link rel="stylesheet" href = "css/Login.css">
@@ -13,7 +14,7 @@
 
 </head>
 <body>
-<br></br>
+
 <div class="container">
 <div class="pandorabox" style="margin-top:30px">
   <div class="col-md-4 col-md-offset-4">
