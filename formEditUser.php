@@ -1,3 +1,12 @@
+<?php
+            session_start();
+
+            if(!isset($_SESSION['nome']) && !isset($_SESSION['senha']))
+            {
+                header("location: Login.php");
+            }
+            ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,6 +38,7 @@
           <h2>Alterando Usuário</h2>
         </div>
        
+       <div class="pontinho" align="center">
         <form action="editUser.php" method="post">
 
     
@@ -45,11 +55,11 @@
           
           <div class="form-row">
             <div class="form-group">
-              <label for="campo2">Tipo  </label>
+              <label for="campo2">Tipos de Usuário</label>
               <select name="tipouser">
-                <option value="1" >oi</option>
-                <option value="2" >2</option>
-                <option value="3">3</option>
+                <option value="1" >Master</option>
+                <option value="2" >Administrador</option>
+                <option value="3">Corretor</option>
               </select>
               <br>
             </div>
@@ -86,8 +96,10 @@
       <td colspan="6">Nenhum registro encontrado.</td>
     </tr>
   <?php endif; ?>
+</div>
 </body>
 </html>
+<br><br><br><br><br><br>
 <?php require 'rodape_adm.php' ?>   
     
     

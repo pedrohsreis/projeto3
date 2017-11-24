@@ -37,7 +37,7 @@ if(!isset($_SESSION['nome']) && !isset($_SESSION['senha']))
              Nome  <br>
              <input type="text" name="username" class="campo" maxlenght="45" required autofocus/><br>
              <br>
-             Tipo<br>
+             Tipo de Usuário<br>
              <div class="form-row">
             <div class="form-group">
               <select class="form-group" name="tipouser">

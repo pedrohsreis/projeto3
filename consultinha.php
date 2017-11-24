@@ -53,7 +53,12 @@ $registros = mysqli_num_rows($consulta);
          print "<br>";
          print "Resultado da pesquisa com a palavra <strong>$filtro</strong><br><br>";
          print "$registros registros encontrados:";
-         
+         ?>
+         <form action="admUsers.php" method="post">
+            <button class="btn btn-primary">Alterar Usuários</button>
+        </form>
+
+         <?php
          print "<br><br>";
          ?>
          <div class="table-responsive">

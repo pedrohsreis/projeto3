@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['nome']) && !isset($_SESSION['senha']))
+{
+  header("location: Login.php");
+}
+?>
+
 <?php require 'cabecalho_adm.php' ?>
 <!DOCTYPE html>
 <html>
@@ -29,7 +38,7 @@
     <?php 
     if(array_key_exists("removido", $_GET) && $_GET["removido"]==true){
      ?>
-     <p class="alert-success text-center">Produto removido com sucesso!</p>
+     <p class="alert-success text-center">Usuário removido com sucesso!</p>
      <?php 
    }
    ?>
@@ -50,34 +59,34 @@
       </thead>
       <tbody>
        <?php $result_user =  DBRead('user', 'order by iduser')?>
-        <?php if ($result_user) : ?>
-          <?php foreach ($result_user as $v) :  ?>
-            <tr>
-             <th scope = row><?php echo $v['iduser'] ?></th>
-            
-             <td><?php echo $v['username'] ?></td>
-             <td><?php echo $v['tipouser'] ?></td>
-             <td class="actions">
-              <div style="display: inline-flex">
-                <form action="formEditUser.php" method="post">
-                  <input type="hidden" name="id" value="<?=$v['iduser']?>">
-                  <button class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Editar</button>
-                </form>
-                <form action="excluiUsuario.php" method="post">
-                  <input type="hidden" name="id" value="<?=$v['iduser']?>">
-                  <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Remover</button>
-                </form>
-              </div>
-            </td>
-          </tr>
-        <?php endforeach; ?>
-      <?php else : ?>
-        <tr>
-          <td colspan="6">Nenhum registro encontrado.</td>
+       <?php if ($result_user) : ?>
+        <?php foreach ($result_user as $v) :  ?>
+          <tr>
+           <th scope = row><?php echo $v['iduser'] ?></th>
+
+           <td><?php echo $v['username'] ?></td>
+           <td><?php echo $v['tipouser'] ?></td>
+           <td class="actions">
+            <div style="display: inline-flex">
+              <form action="formEditUser.php" method="post">
+                <input type="hidden" name="id" value="<?=$v['iduser']?>">
+                <button class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Editar</button>
+              </form>
+              <form action="excluiUsuario.php" method="post">
+                <input type="hidden" name="id" value="<?=$v['iduser']?>">
+                <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Remover</button>
+              </form>
+            </div>
+          </td>
         </tr>
-      <?php endif; ?>
-    </tbody>
-  </table>
+      <?php endforeach; ?>
+    <?php else : ?>
+      <tr>
+        <td colspan="6">Nenhum registro encontrado.</td>
+      </tr>
+    <?php endif; ?>
+  </tbody>
+</table>
 </div><!--table-responsive-->
 </div><!--container-->
 </body>
