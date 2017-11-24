@@ -1,7 +1,16 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['nome']) && !isset($_SESSION['senha']))
+{
+  header("location: Login.php");
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
+    <link rel="icon" href="img/icone.png">  
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -11,8 +20,11 @@
 	<?php
 		include("conecta.php");
 		include("banco-contato.php");
+		include("cabecalho_adm.php");
 	?>
-	<title>Listagem de contatos</title>
+
+	<title>Administração de contatos</title>
+
 </head>
 <body>
 
@@ -20,12 +32,12 @@
 <div class="table-responsive">
 <table class="table table-bordered">
 	<thead>
-	  <th scope="col">Nome</th>
-      <th scope="col">Email</th>
-      <th scope="col">Assunto</th>
-      <th scope="col">Mensagem</th>
-      <th scope="col">Responder</th>
-      <th scope="col">Remover</th>
+	  <th scope="col"><strong>Nome</strong></th>
+      <th scope="col"><strong>Email</strong></th>
+      <th scope="col"><strong>Assunto</strong></th>
+      <th scope="col"><strong>Mensagem</strong></th>
+      <th scope="col"><strong>Responder</strong></th>
+      <th scope="col"><strong>Remover</strong></th>
 	<?php
 		$contatos=listaContatos($conexao);
 		foreach ($contatos as $mensagem) : 
@@ -54,5 +66,10 @@
 	</thead>
 </table>
 </div>
+<footer>
+
+</footer>
 </body>
+        <br><?php include("rodape_adm.php")?>
+
 </html>

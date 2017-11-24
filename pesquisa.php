@@ -6,8 +6,6 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
-    <link rel="stylesheet" href="css/pesquisa.css">
-
     <title></title>
 </head>
 <body>
@@ -15,7 +13,7 @@
         <div  class="form-row">
             <div  class="col-md-5">
                 <form method="post" action="produtos.php" >
-                 <input class="w3-input " style="width:100%" type="text" name="Nome"  size="40" placeholder="Digite um bairro ou cidade. ">
+                 <input class="w3-input " style="width:100%" type="text" name="Nome"  size="40" placeholder="Procure seu imóvel aqui.">
              </div>
              <div class="col-md-2 text-center">
 

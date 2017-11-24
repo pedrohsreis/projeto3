@@ -7,9 +7,9 @@
   <link rel="stylesheet" type="text/css" href="css/quemSomos.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link rel="icon" href="img/felicidade.png">
+  <link rel="icon" href="img/icone.png">  
 
-  <title>Felicidade Imóveis--Quem Somos</title>
+  <title>Quem Somos</title>
 
 </head>
 <header>
@@ -36,7 +36,7 @@
   <img class="card-img-top" src="img/icone-visao3.png" alt="Card image cap">
   <div class="card-block">
     <h3 class="card-title">Visão</h3>
-    <p class="card-text"><strong>Ser uma empresa do ramo de imóveis reconhecida e respeitada no mercado almejando causar grande impacto em tal mercado e se tornar uma referência no setor na cidade de Juiz de Fora.</strong></p>
+    <p class="card-text"><strong>Ser uma empresa do ramo de imóveis reconhecida e respeitada no mercado</strong></p>
   </div>
 </div>
 
@@ -44,7 +44,7 @@
   <img class="card-img-top" src="img/icone-valores3.png" alt="Card image cap">
   <div class="card-block">
     <h3 class="card-title">Valores</h3>
-    <p class="card-text"><strong>Comprometimento,maestria e respeito.</strong></p>
+    <p class="card-text"><strong>Comprometimento,maestria e respeito para com nossos clientes sempre.</strong></p>
   </div>
 </div>
 

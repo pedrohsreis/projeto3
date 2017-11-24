@@ -148,7 +148,32 @@ ul li a i {
         
     
 }
-
+.btn{
+    padding: 6px;
+    border: none;
+}
+div .thumbnail{
+    margin-bottom: 30px;
+}
+.thumbnail .btn-primary{
+    background-color: #FFF;
+}
+.thumbnail .btn-primary:hover{
+    background-color: #FF9933;
+}
+.texto{
+    font-weight: bold;
+    color: #FFF;
+    text-indent: center;    
+}
+p{
+    text-align: justify;
+}
+.thumbnail .btn{
+    display: inline-block;
+    padding: 5px 5px 10px 5px;
+    border: none;
+}
 
 
 

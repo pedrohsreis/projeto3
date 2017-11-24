@@ -1,0 +1,36 @@
+.card-img-top{
+	margin: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+.card-text{
+	height: 520px;
+	border-radius: 10px;
+	background-color: #E6E6FA;
+	text-align: left;
+	font-size: 20px;
+	padding-top: 30px;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+@media(max-width: 760px)
+{
+	.card-img-top{
+		margin: 5px;
+	}
+	.card-text{
+		background-color: #FFF;
+		height: 30%;
+		width: 300px;
+		text-align: center;
+		margin: 5px;
+	}
+}

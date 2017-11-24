@@ -8,20 +8,6 @@ if(!isset($_SESSION['nome']) && !isset($_SESSION['senha']))
 ?>
 <?php
 include_once("conexao.php");
-    $username = $_POST['username'];
-$tipouser = $_POST['tipouser'];
-$senha = base64_encode($_POST['senha']);
-
-$sql = "insert into user (username,tipouser,senha) values ('$username','$tipouser','$senha')";
-$salvar = mysqli_query($conn,$sql);
-
-$linhas =mysqli_affected_rows($conn);
-?>
-
-
-<?php
-
-include_once("conexao.php");
  
 $filtro = isset($_GET['filtro'])?$_GET['filtro']:"";
 
