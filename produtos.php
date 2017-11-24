@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- essa linha do charset não tava no vídeo! -->
     <meta charset="utf-8">
     <title>Pagina produtos</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
@@ -87,8 +86,7 @@
 
 
 
-    <section class="container">
-        <h2>EM DESTAQUE</h2>         
+    <section class="container">        
         <figure class="thumbnail projeto-responsivo">
             <?php
             $sqp = mysqli_query($conn, "SELECT idimovel FROM imovel order by idimovel DESC limit 1");
@@ -108,6 +106,7 @@
                     <?php
                 }
                 ?>
+                <a href="descricaoProdutos.php">Saiba Mais</a>
             </figcaption>
         </figure>
 
@@ -130,6 +129,7 @@
                     <?php
                 }
                 ?>
+                <a href="descricaoProdutos.php">Saiba Mais</a>
             </figcaption>
         </figure>
 
@@ -151,44 +151,13 @@
                     <?php
                 }
                 ?>
+                <a href="descricaoProdutos.php">Saiba Mais</a>
             </figcaption>
         </figure>
 
 
 
     </section>
-
-    <section class="container">
-        <h2>MAIS PROXIMOS DE VOCÊ</h2>
-
-        <figure class="thumbnail projeto-responsivo">
-            <img src="img/casa1.jpg" alt="Foto da Casa Castelo">
-            <figcaption class="caption">
-                <h3>Casa em frente ao shopping</h3>
-                <p>Uma casa perfeita para morar.</p>
-            </figcaption>
-        </figure>
-
-        <figure class="thumbnail projeto-responsivo">
-            <img src="img/casa2.jpg" alt="Foto da Casa Castelo">
-            <figcaption class="caption">
-                <h3>Casa em frente ao shopping</h3>
-                <p>Uma casa perfeita para morar.</p>
-            </figcaption>
-        </figure>
-
-        <figure class="thumbnail projeto-responsivo">
-            <img src="img/casa3.jpg" alt="Foto da Casa Castelo">
-            <figcaption class="caption">
-                <h3>Casa em frente ao shopping</h3>
-                <p>Uma casa perfeita para morar.</p>
-            </figcaption>
-        </figure>
-    </section>
-
-
-
-
     <?php include 'Rodape.php'; ?>
 </body>
 
