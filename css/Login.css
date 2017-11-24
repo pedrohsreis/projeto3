@@ -5,9 +5,18 @@
 }
 .pandorabox{
 	position: relative;
+	margin-top: 45%;
 	transform: translateY(-50%); 
 	}
 
 .pezinho{
 	margin-bottom: 0px;
+}
+
+@media(min-width: 769px)
+{
+	.pandorabox{
+		margin-top: 10%;
+		position: relative;
+	}
 }
