@@ -2,7 +2,7 @@
         
 <!DOCTYPE html>
   <head>
-    <title>Felicidade Imoveis</title>
+    <title>Página de Localização</title>
     <meta charset="UTF-8">
     <meta name ="Descriçao" content="Localizacao">
     <link rel="stylesheet" href="css/newcss.css">
@@ -16,6 +16,7 @@
   </head>
 
       <?php include 'cabecalho.php'; ?> 
+      <br>
       <?php include 'pesquisa.php'; ?> 
     <div class="container">
         

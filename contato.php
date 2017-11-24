@@ -13,7 +13,6 @@
 </head>
 <?php
 include 'cabecalho.php'; 
-     //include 'pesquisa.php'; esse include faz o banco de dados parar de funcionar
 ?>
 
 <main>
@@ -59,7 +58,9 @@ include 'cabecalho.php';
                     </form>
                 </div>
             </div>
-           
+
+            
+
             </div>
         </div><br>
     </main>

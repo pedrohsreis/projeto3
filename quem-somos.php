@@ -7,9 +7,9 @@
   <link rel="stylesheet" type="text/css" href="css/quemSomos.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link rel="icon" href="img/felicidade.png">
+  <link rel="icon" href="img/icone.png">  
 
-  <title>Felicidade Imóveis--Quem Somos</title>
+  <title>Quem Somos</title>
 
 </head>
 <header>
@@ -44,7 +44,7 @@
   <img class="card-img-top" src="img/icone-valores3.png" alt="Card image cap">
   <div class="card-block">
     <h3 class="card-title">Valores</h3>
-    <p class="card-text"><strong>Comprometimento,maestria e respeito.</strong></p>
+    <p class="card-text"><strong>Comprometimento,maestria e respeito para com nossos clientes sempre.</strong></p>
   </div>
 </div>
 
