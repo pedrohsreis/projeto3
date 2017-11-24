@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Descrição dos produtos</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/descricao.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/CssRodape.css">
@@ -13,6 +14,9 @@
     <header>
         <?php
         include 'cabecalho.php';
+        ?>
+        <br>
+        <?php
         include 'pesquisa.php';
         ?>
     </header>
@@ -26,16 +30,23 @@
     $id = $_GET['id'];
     } 
      ?>
+     <h1><strong>Descrição geral do imóvel</strong></h1>
     <?php $result_imovel =  DBRead('imovel', "WHERE idimovel = $id order by idimovel")?>
     <?php foreach ($result_imovel as $v) :  ?>
+        <br>
+        <h2><?php echo $v['nome'] ?></h2>
     <section class="container">
-        <div class="col-md-12">
-        <div class="col-md-2"> <img src="img/<?php echo $v['foto'] ?>" alt="Foto de exibição"></div>
-        <div class="col-md-10"><?php echo $v['nome'] ?></div>
+        <div class="card">
+        <img align="left" class="img-responsive card-img-top" src="img/<?php echo $v['foto'] ?>" alt="Card image cap">
+        <div class="card-inline">
+        <p  class="card-text"><?php echo $v['descricao'] ?></p>
+        </div>
+        </div>
         </div>
 
     </section>
     <?php endforeach; ?>
+    <br>
     <footer>
         <?php include 'Rodape.php'; ?>
     </footer>
