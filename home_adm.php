@@ -49,6 +49,6 @@
     <br><br><br><br><br><br><br><br><br><br>
 
     <footer>
-        <?php include 'rodape_adm.php';?>
+        <?php include('rodape_adm.php');?>
     </footer>
         

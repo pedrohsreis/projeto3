@@ -14,10 +14,10 @@
 <body>
 
  <div class="btn-group btn-group-justified" align="center">
-     <nav>
+  
+
          <?php include 'cabecalho_adm.php';?>
 
-     </nav>
  </div>
     <div class="container" align="center">
      <section class="container">

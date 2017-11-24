@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
   <title>Login - Felicidade Imoveis</title>
 <link rel="icon" href="img/icone.png">  
@@ -5,11 +7,16 @@
   <meta name ="Descriçao" content="Login">
   <link rel="stylesheet" href = "css/Login.css">
   <link rel="stylesheet"  type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <?php
+  include 'cabecalho.php';
+  ?>
 
 
 </head>
+<body>
 
-<div class="container" style="margin-top:30px">
+<div class="container">
+<div class="pandorabox" style="margin-top:30px">
   <div class="col-md-4 col-md-offset-4">
     <div class="panel panel-default">
 
@@ -39,24 +46,13 @@
               
               <button type="submit" class="btn ">Login</button>
               
-              <hr style="margin-top:10px;margin-bottom:10px;" >
-              
-              <div class="form-group">
-               
-
-
-                <div class="form-group">
-                  
-                  
-                  
-                </div> 
-              </form>                                    
-            </div> 
-          </form>
+                </form>                
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-
+</body>
+</html>
 
 
