@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['nome']) && !isset($_SESSION['senha']))
+{
+  header("location: Login.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
