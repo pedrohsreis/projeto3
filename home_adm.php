@@ -33,21 +33,20 @@
         <div class="col-md-6">
             <div class="well well-sm" align='center'>
                 <legend><h4>Quantidade de Produtos cadastrados</h4></legend><br>
-                <p>Temos <?php echo $totalp ?> produtos cadastrados no site.</p>
+                <p>Temos <?php echo $totalp ?> produtos cadastrados no site.</p><br>
                 <p>Clique <a href="admProdutos.php">aqui</a> para acessar a página de cadastros dos produtos.</p>
             </div>
         </div>
         <div class="col-md-6">
             <div class="well well-sm" align='center'>
                 <legend><h4 >Quantidade de Mensagens Recebidas</h4></legend><br>
-                <p>Temos <?php echo $totalc ?> mensagens recebidas no site.</p>
+                <p>Temos <?php echo $totalc ?> mensagens recebidas no site.</p><br>
                 <p>Clique <a href="contato-lista.php">aqui</a> para acessar a página de administração dos contatos.</p>
             </div>
         </div>
 
     </body>    
     <br><br><br><br><br><br><br><br><br><br>
-
 
     <footer>
         <?php include 'rodape_adm.php';?>

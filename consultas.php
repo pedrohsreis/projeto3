@@ -18,6 +18,7 @@ $registros = mysqli_num_rows($consulta);
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de usuário</title>
+    <link rel="icon" href="img/icone.png">  
    
     <link rel="stylesheet" href="css/normalize.css">
 

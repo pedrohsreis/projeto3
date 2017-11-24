@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+    <link rel="icon" href="img/icone.png">  
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -13,8 +14,9 @@
 		include("banco-contato.php");
 		include("cabecalho_adm.php");
 	?>
-	<br></br>
-	<title>Listagem de contatos</title>
+
+	<title>Administração de contatos</title>
+
 </head>
 <body>
 
@@ -57,9 +59,9 @@
 </table>
 </div>
 <footer>
-	<?php
-	include("rodape_adm.php");
-	?>
+
 </footer>
 </body>
+        <br><?php include("rodape_adm.php")?>
+
 </html>
