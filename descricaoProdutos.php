@@ -14,6 +14,7 @@
     <header>
         <?php
         include 'cabecalho.php';
+        echo "<br>";
         ?>
         <br>
         <?php
@@ -27,28 +28,28 @@
     ?>
     <?php 
     if(array_key_exists("id", $_GET)){ 
-    $id = $_GET['id'];
+        $id = $_GET['id'];
     } 
-     ?>
-     <h1><strong>Descrição geral do imóvel</strong></h1>
+    ?>
+    <h1><strong>Descrição geral do imóvel</strong></h1>
     <?php $result_imovel =  DBRead('imovel', "WHERE idimovel = $id order by idimovel")?>
     <?php foreach ($result_imovel as $v) :  ?>
         <br>
         <h2><?php echo $v['nome'] ?></h2>
-    <section class="container">
-        <div class="card">
-        <img align="left" class="img-responsive card-img-top" src="img/<?php echo $v['foto'] ?>" alt="Card image cap">
-        <div class="card-inline">
-        <p  class="card-text"><?php echo $v['descricao'] ?></p>
-        </div>
-        </div>
+        <section class="container">
+            <div class="card">
+                <img align="left" class="img-responsive card-img-top" src="img/<?php echo $v['foto'] ?>" alt="Card image cap">
+                <div class="card-inline">
+                    <p  class="card-text"><?php echo $v['descricao'] ?></p>
+                </div>
+            </div>
         </div>
 
     </section>
-    <?php endforeach; ?>
-    <br>
-    <footer>
-        <?php include 'Rodape.php'; ?>
-    </footer>
+<?php endforeach; ?>
+<br>
+<footer>
+    <?php include 'Rodape.php'; ?>
+</footer>
 </body>
 </html>
