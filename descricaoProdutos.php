@@ -13,7 +13,8 @@
     <header>
         <?php
         include 'cabecalho.php';
-        include 'pesquisa.php';
+        echo "<br>";
+       
         ?>
     </header>
     <?php 
@@ -23,19 +24,25 @@
     ?>
     <?php 
     if(array_key_exists("id", $_GET)){ 
-    $id = $_GET['id'];
+        $id = $_GET['id'];
     } 
-     ?>
+    ?>
+    <br>
     <?php $result_imovel =  DBRead('imovel', "WHERE idimovel = $id order by idimovel")?>
     <?php foreach ($result_imovel as $v) :  ?>
-    <section class="container">
-        <div class="col-md-12">
-        <div class="col-md-2"> <img src="img/<?php echo $v['foto'] ?>" alt="Foto de exibição"></div>
-        <div class="col-md-10"><?php echo $v['nome'] ?></div>
-        </div>
+        <section class="container">
+            <div class="row">
+                <div class="col-xs-12 text-right"><?php echo $v['nome'] ?></div>
+                </div>
+            <div class="row">
+                <div class="col-xs-4"><img class="img-responsive" src="img/<?php echo $v['foto'] ?>" alt="Foto de exibição"></div>
+                <div  class="col-xs-12 text-right"><?php echo $v['descricao'] ?></div>
+            </div>
+            </div>
 
-    </section>
+        </section>
     <?php endforeach; ?>
+    <br>
     <footer>
         <?php include 'Rodape.php'; ?>
     </footer>
