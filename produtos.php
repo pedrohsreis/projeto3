@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- essa linha do charset não tava no vídeo! -->
     <meta charset="utf-8">
     <title>Pagina produtos</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
@@ -107,6 +106,7 @@
                     <?php
                 }
                 ?>
+                <a href="descricaoProdutos.php">Saiba Mais</a>
             </figcaption>
         </figure>
 
@@ -129,6 +129,7 @@
                     <?php
                 }
                 ?>
+                <a href="descricaoProdutos.php">Saiba Mais</a>
             </figcaption>
         </figure>
 
@@ -150,6 +151,7 @@
                     <?php
                 }
                 ?>
+                <a href="descricaoProdutos.php">Saiba Mais</a>
             </figcaption>
         </figure>
 
