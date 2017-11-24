@@ -32,7 +32,7 @@
             <div class="well well-sm">
                 <legend><h4 align='center'>Quantidade de Mensagens Recebidas</h4></legend><br>
                 <p>Temos 0 mensagens recebidas no site.</p>
-                <p>Clique <a href="cadastro.php">aqui</a> para acessar a página de administração dos contatos.</p>
+                <p>Clique <a href="contato-lista.php">aqui</a> para acessar a página de administração dos contatos.</p>
             </div>
         </div>
 
