@@ -1,4 +1,17 @@
 <?php
+include_once("conexao.php");
+    $username = $_POST['username'];
+$tipouser = $_POST['tipouser'];
+$senha = base64_encode($_POST['senha']);
+
+$sql = "insert into user (username,tipouser,senha) values ('$username','$tipouser','$senha')";
+$salvar = mysqli_query($conn,$sql);
+
+$linhas =mysqli_affected_rows($conn);
+?>
+
+
+<?php
 
 include_once("conexao.php");
  
@@ -18,7 +31,8 @@ $registros = mysqli_num_rows($consulta);
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de usuário</title>
-   
+    <link rel="icon" href="img/icone.png">  
+    <link rel="stylesheet" href="css/consulta.css">
     <link rel="stylesheet" href="css/normalize.css">
 
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -26,52 +40,61 @@ $registros = mysqli_num_rows($consulta);
     
    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+   <?php
+        include("cabecalho_adm.php");
+    ?>
 </head>
 <body>
- <div class="btn-group btn-group-justified" align="center">
-     <nav>
-         <ul class="menu">
-            <a href="index.php" class="btn btn-primary"><li>Página Home</li></a>
-             <a href="cadastro.php" class="btn btn-primary"><li>Cadastro</li></a>
-             <a href="consultas.php" class="btn btn-primary"><li>Consulta</li></a>
-         </ul>
-     </nav>
- </div>
+    <div class="caixinhas">
      <section class="Container" align="center">
-         <h1>Consultas</h1>
+        <br><br>
+         <font size="20">Consulta de Usuários</font>
          <hr>
          <form action="" method="get">
-             Filtrar por nome: <input type="text" name="filtro" class="campo" required autofocus>
-             <input type="submit" value="Pesquisar" class="btn">
+             <input type="text" name="filtro" class="campo" placeholder="Digite o nome:" required autofocus>
+             <input type="submit" value="Pesquisar" class="btn btn-primary">
          </form>
          
          <?php
-         
+         print "<br>";
          print "Resultado da pesquisa com a palavra <strong>$filtro</strong><br><br>";
-         print "$registros registros encontrados";
+         print "$registros registros encontrados:";
          
          print "<br><br>";
+         ?>
+         <div class="table-responsive">
+        <table class="table table-bordered">
+        <thead>
+        <th scope="col"><strong>Nome</strong></th>
+        <th scope="col"><strong>Tipo</strong></th>
+        <th scope="col"><strong>Senha</strong></th>
          
+         <?php
          while($exibirRegistros = mysqli_fetch_array($consulta)){
              
              $codigo =  $exibirRegistros[0];
              $nome = $exibirRegistros[1];
              $tipo = $exibirRegistros[2];
              $senha = $exibirRegistros[3];
-             
-             print "<article>";
-             
-             print "$codigo<br>";
-             print "Nome:$nome<br>";
-             print "Tipo:$tipo<br>";
-             print "Senha:$senha<br>";
-             print "<hr>";
-             
-             print"</article>";
-             
+             ?>
+            <tr> 
+            <th><?php echo "$nome"; ?></th>
+            <th><?php echo "$tipo"; ?></th>
+            <th><?php echo "$senha"; ?></th>
+        </tr>
+            <?php
          }
          mysqli_close($conn);
          ?>
+     </thead>
+ </table>
+</div>
      </section>
+ </div>
+     <div class="footer">
+        <?php
+        include("rodape_adm.php");
+        ?>
+    </div>
 </body>
 </html>
